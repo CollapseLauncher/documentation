@@ -35,7 +35,7 @@ hero:
       attributes:
         target: "_blank"
     - theme: alt
-      text: Download Pre-Release
+      text: Download Beta Release
       link: /pre-release
       attributes:
         target: "_blank"
