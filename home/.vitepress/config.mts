@@ -11,7 +11,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Team', link: '/team' }
+      { text: 'Team', link: '/team' },
+      { text: 'Features', link: '/features' }
     ],
 
     sidebar: [
@@ -25,7 +26,16 @@ export default defineConfig({
       {
         text: 'Features',
         items: [
-          { text: 'Feature matrix', link: '/features' }
+          { text: 'Feature matrix', link: '/features' },
+          { text: 'Delta patch', link: '/feature/delta-patch' },
+          { text: 'Command line arguments', link: '/feature/cli-args' },
+          { text: 'Data synchronization', link: '/feature/database' },
+        ]
+      },
+      {
+        text: 'Advanced Features',
+        items: [
+          { text: 'Game Launch Commands', link: '/feature/game-commands' },
         ]
       }
     ],
