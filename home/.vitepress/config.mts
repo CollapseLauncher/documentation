@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Team', link: '/team' },
-      { text: 'Features', link: '/features' }
+      { text: 'Docs', link: '/features' }
     ],
 
     sidebar: [
