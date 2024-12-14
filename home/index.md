@@ -21,24 +21,25 @@ hero:
       z-index: 0
   actions:
     - theme: brand
-      text: Documentation
-      link: /markdown-examples
+      text: Download Latest Release
+      link: /latest-release
+      attributes:
+        target: "_blank"
+    - theme: brand
+      text: Download Beta Release
+      link: /pre-release
+      attributes:
+        target: "_blank"
+    # - theme: brand
+    #   text: Documentation
+    #   link: /markdown-examples
     - theme: alt
       text: Feature Matrix
       link: /features
     - theme: alt
       text: Meet the Team
       link: /team
-    - theme: alt
-      text: Download Latest Release
-      link: /latest-release
-      attributes:
-        target: "_blank"
-    - theme: alt
-      text: Download Beta Release
-      link: /pre-release
-      attributes:
-        target: "_blank"
+
 
 features:
   - title: Multi-region Support
@@ -52,7 +53,9 @@ features:
   import './index.css'
   import vtuberLogo from './scripts/index.logo.vue';
 
-  document.title = "Collapse Launcher - Advanced Game Launcher";
+  if (typeof document !== 'undefined') {
+    document.title = "Collapse Launcher - Advanced Game Launcher";
+  }
 </script>
 
 

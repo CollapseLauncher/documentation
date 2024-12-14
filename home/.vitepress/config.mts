@@ -16,10 +16,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Download',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Latest Stable', link: '/latest-release' },
+          { text: 'Latest Preview', link: '/pre-releaser' }
+        ]
+      },
+      {
+        text: 'Features',
+        items: [
+          { text: 'Feature matrix', link: '/features' }
         ]
       }
     ],
