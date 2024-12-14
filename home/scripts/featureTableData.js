@@ -187,8 +187,8 @@ export const games = [
                     { emoji: "✅", tooltip: "" },
                     { emoji: "✅", tooltip: "" },
                     { emoji: "✅", tooltip: "" },
-                    { emoji: "❌", tooltip: "" },
-                    { emoji: "❌", tooltip: "" },
+                    { emoji: "✅", tooltip: "" },
+                    { emoji: "✅", tooltip: "" },
                     { emoji: "✅", tooltip: "" },
                     { emoji: "❌", tooltip: "" }
                 ]
