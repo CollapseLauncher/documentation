@@ -68,7 +68,7 @@ features:
 
 <vtuberLogo />
 
-# Why "Collapse"?
+## Why "Collapse"?
 Collapse came from the **Honkai Impact** translation in Chinese and Japanese. The word came from [**崩坏**] or **Bēng huài** in Chinese and also [**崩壊**] or **Houkai** in Japanese, both meaning "**Collapse**" which is why we chose it as our launcher name with the added inspiration that this was supposed to be an alternative (enhanced) launcher for *Honkai Impact 3rd* in the first place.
 
 **Collapse** contains advanced features for **Honkai Impact 3rd** that not only provide you with the ability to download and launch the game, but also some additional features that the Official Launcher doesn't have, including:
@@ -104,7 +104,7 @@ Not only that, this launcher also has some advanced features for **Genshin Impac
 <p align="center"><SentryLogo /></p>
 
 
-# Code Signing Policy
+## Code Signing Policy
 ::: info
 Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
 :::
@@ -115,7 +115,7 @@ Free code signing provided by [SignPath.io], certificate by [SignPath Foundation
 [SignPath Foundation]:https://signpath.org
 [SignPath.io]:https://signpath.io
 
-# FOSSA Analysis For Key Projects
+## FOSSA Analysis For Key Projects
 <p align="center" style="vertical-align: top;">
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
         <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse.svg?type=large&issueType=license" alt="Collapse FOSSA Status" width=280/>
