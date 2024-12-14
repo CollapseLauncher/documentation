@@ -6,6 +6,14 @@ hero:
   name: "Collapse Launcher"
   text: "An advanced launcher for HoYoverse Games"
   tagline: Take the control upon your hands
+  image:
+    src: /img/logo.png
+    alt: Collapse Launcher Logo
+    style:
+      size: 200%
+      opacity: 0.8
+      position: absolute
+      z-index: 0
   actions:
     - theme: brand
       text: Markdown Examples
@@ -25,8 +33,15 @@ features:
   - title: Sophon API Support
     details: Able to use Sophon API on supported games for faster and smaller game downloads/update
 ---
+<script setup>
+  import './index.css'
+  import vtuberLogo from './scripts/index.logo.vue'
+</script>
+
 &nbsp;
 &nbsp;
+
+<vtuberLogo />
 
 # Why "Collapse"?
 Collapse came from the **Honkai Impact** translation in Chinese and Japanese. The word came from [**崩坏**] or **Bēng huài** in Chinese and also [**崩壊**] or **Houkai** in Japanese, both meaning "**Collapse**" which is why we chose it as our launcher name with the added inspiration that this was supposed to be an alternative (enhanced) launcher for *Honkai Impact 3rd* in the first place.

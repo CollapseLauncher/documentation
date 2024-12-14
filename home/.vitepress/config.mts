@@ -4,12 +4,14 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Collapse Launcher",
   description: "An advanced launcher for HoYoverse Games",
+  head: [
+    ['link', { rel: 'icon', href: 'icon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples'},
-      { text: 'Team', link: '/team'}
+      { text: 'Team', link: '/team' }
     ],
 
     sidebar: [
@@ -27,3 +29,4 @@ export default defineConfig({
     ]
   }
 })
+
