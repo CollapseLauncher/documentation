@@ -41,9 +41,12 @@ features:
 <script setup>
   import './index.css'
   import vtuberLogo from './scripts/index.logo.vue'
+  import GitHubReleases from './scripts/githubReleases.vue';
 
   document.title = "Collapse Launcher - Advanced Game Launcher";
 </script>
+<GitHubReleases />
+
 
 &nbsp;
 &nbsp;
