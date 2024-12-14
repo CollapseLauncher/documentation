@@ -1,12 +1,14 @@
 <template>
     <section class="vtuber-logo">
-        <p align="center">
-            <img width="512px" height="auto"
-                src="/img/vtuber.png" /><br />
-            <i>I know, it's not a good one. But at least we made it lol</i>
-            <i>~ neon-nyan</i>
-            <img
-                src="/img/banner.webp" />
-        </p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <div style="text-align: center; margin: 10px;">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <img width="256px" height="auto" src="/img/vtuber.png" /><br />
+                    <i>I know, it's not a good one. But at least we made it lol</i><br />
+                    <i>~ neon-nyan</i>
+                </div>
+            </div>
+            <img width="710px" height="auto" src="/img/banner.webp" style="margin: 10px;" />
+        </div>
     </section>
 </template>
