@@ -52,6 +52,10 @@ features:
 <script setup>
   import './index.css'
   import vtuberLogo from './scripts/index.logo.vue';
+  import JetBrainsLogo from './scripts/JetBrainsLogo.vue';
+  import TransifexLogo from './scripts/TransifexLogo.vue';
+  import SignPathLogo from './scripts/SignPathLogo.vue';
+  import SentryLogo from './scripts/SentryLogo.vue';
 
   if (typeof document !== 'undefined') {
     document.title = "Collapse Launcher - Advanced Game Launcher";
@@ -82,3 +86,46 @@ Collapse came from the **Honkai Impact** translation in Chinese and Japanese. Th
 Not only that, this launcher also has some advanced features for **Genshin Impact**, including but not limited to:
 * Choosing your voice-line language during the first installation, so you don't have to download it inside the game.
 * Repair the game files including Game Caches, Cutscenes, Audio Pack & persistent files outside of the game.
+
+
+## Special Thanks
+> The teams over at Collapse are really thankful for all of our users and contributors that has been keeping this project alive and well. We are also giving our outmost gratitude for these company/organization for providing their service for us.
+
+1. JetBrains for providing complete .NET suite and Qodana for our internal use
+<p align="center"><JetBrainsLogo /></p>
+
+2. Transifex for their translation platform
+<p align="center"><TransifexLogo /></p>
+
+3. SignPath Foundation for providing us free code signing!
+<p align="center"><SignPathLogo /></p>
+
+4. Sentry for providing us with error collection platform!
+<p align="center"><SentryLogo /></p>
+
+
+# Code Signing Policy
+::: info
+Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
+:::
+- This program will only transfer user data to user configured database server. Exception data will be sent to [Sentry.io] for error tracking purposes (user are able to disable the behavior in App Settings).
+- Read our full [**Privacy Policy**](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md)
+- Also read our [**Third Party Notices**](https://github.com/CollapseLauncher/Collapse/blob/main/THIRD_PARTY_NOTICES.md) for license used by third party libraries that we use.
+
+[SignPath Foundation]:https://signpath.org
+[SignPath.io]:https://signpath.io
+
+# FOSSA Analysis For Key Projects
+<p align="center" style="vertical-align: top;">
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse.svg?type=large&issueType=license" alt="Collapse FOSSA Status" width=280/>
+    </a>
+    &nbsp;
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FSharpHDiffPatch.Core?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FSharpHDiffPatch.Core.svg?type=large&issueType=license" alt="SharpHDiffPatch FOSSA Status" width=280/>
+    </a>
+    &nbsp;
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FHi3Helper.Sophon?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FHi3Helper.Sophon.svg?type=large&issueType=license" alt="Sophon FOSSA Status" width=280/>
+    </a>
+</p>
