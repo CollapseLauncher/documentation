@@ -18,6 +18,7 @@ if (typeof window !== 'undefined') {
       window.location.href = "/";
     } catch (error) {
       console.error("Error fetching latest release:", error);
+      await delay(5000)
       window.location.href = "/";
     }
   };
@@ -26,4 +27,4 @@ if (typeof window !== 'undefined') {
 }
 </script>
 
-<p>Redirecting to the latest release page...</p>
+# Redirecting to the latest release page...
