@@ -6,7 +6,9 @@
       <h2>Core Developers</h2>
       <p>&nbsp;</p>
       <div class="team-member core-developers" :class="{ 'reverse': index % 2 !== 0 }" v-for="(member, index) in coreDevelopers" :key="member.name">
-        <img :src="member.image" :alt="member.name" />
+        <a :href="member.github" target="_blank">
+          <img :src="member.image" :alt="member.name" />
+        </a>
         <div class="info" :class="{ 'align-right': index % 2 !== 0 }">
           <a :href="member.github" target="_blank"><h3>{{ member.name }} <span>({{ member.username }})</span></h3></a>
           <p><strong>Role:</strong> <i>{{ member.role }}</i></p>
@@ -18,7 +20,9 @@
       <h2>Other Contributors</h2>
       <div class="contributors-grid">
         <div class="contributor" v-for="contributor in contributors" :key="contributor.name">
-          <img :src="contributor.image" :alt="contributor.name" />
+          <a :href="contributor.link" target="_blank">
+            <img :src="contributor.image" :alt="contributor.name" />
+          </a>
           <a :href="contributor.link" target="_blank"><p><strong>{{ contributor.name }}</strong></p></a>
           <p>{{ contributor.contributions }}</p>
         </div>
@@ -147,6 +151,7 @@ export default {
     object-fit: cover;
     align-self: center;
     margin: 0 auto;
+    cursor: pointer;
   }
 
   .contributor p {
