@@ -1,6 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
+title: Collapse Launcher - Advanced Game Launcher
 layout: home
+head:
+  - - meta
+    - name: title
+      content: Collapse Launcher - Advanced Game Launcher
 
 hero:
   name: "Collapse Launcher"
@@ -16,11 +21,11 @@ hero:
       z-index: 0
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Documentation
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Feature Matrix
+      link: /features
     - theme: alt
       text: Meet the Team
       link: /team
@@ -36,6 +41,8 @@ features:
 <script setup>
   import './index.css'
   import vtuberLogo from './scripts/index.logo.vue'
+
+  document.title = "Collapse Launcher - Advanced Game Launcher";
 </script>
 
 &nbsp;
