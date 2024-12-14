@@ -25,7 +25,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CollapseLauncher/Collapse' }
+      { icon: 'github', link: 'https://github.com/CollapseLauncher/Collapse' },
+      { icon: 'discord', link: 'https://discord.gg/vJd2exaS7j' }
     ]
   }
 })
