@@ -1,31 +1,19 @@
 <template>
-    <div>
-      <a
-        v-if="latestRelease"
-        :href="latestRelease.url"
-        target="_blank"
-        class="button padded-button"
-      >
-        Download Latest ({{ latestRelease.tag }})
-      </a>
-      <a
-        v-if="latestPreRelease"
-        :href="latestPreRelease.url"
-        target="_blank"
-        class="button padded-button"
-      >
-      Download Pre-Release ({{ latestPreRelease.tag }})
-      </a>
-      <p v-if="!latestRelease && !latestPreRelease">Loading releases...</p>
+    <div v-if="ready">
+        <a :href="latestReleaseUrl" class="button padded-button" target="_blank">Download Latest Release</a>
+        <a :href="preReleaseUrl" class="button padded-button" target="_blank">Download Pre-Release</a>
     </div>
 </template>
 
 <script>
+import { nextTick } from 'vue';
+
 export default {
     data() {
         return {
-            latestRelease: null,
-            latestPreRelease: null,
+            latestReleaseUrl: "#",
+            preReleaseUrl: "#",
+            ready: false,
         };
     },
     async created() {
@@ -34,8 +22,13 @@ export default {
 
         const releases = await this.fetchGitHubReleases(owner, repo);
 
-        this.latestRelease = releases.latestRelease;
-        this.latestPreRelease = releases.latestPreRelease;
+        if (releases.latestRelease) {
+            this.latestReleaseUrl = releases.latestRelease.url;
+        }
+        if (releases.latestPreRelease) {
+            this.preReleaseUrl = releases.latestPreRelease.url;
+        }
+        this.ready = true;
     },
     methods: {
         async fetchGitHubReleases(owner, repo) {

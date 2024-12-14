@@ -29,6 +29,16 @@ hero:
     - theme: alt
       text: Meet the Team
       link: /team
+    - theme: alt
+      text: Download Latest Release
+      link: /latest-release
+      attributes:
+        target: "_blank"
+    - theme: alt
+      text: Download Pre-Release
+      link: /pre-release
+      attributes:
+        target: "_blank"
 
 features:
   - title: Multi-region Support
@@ -40,12 +50,10 @@ features:
 ---
 <script setup>
   import './index.css'
-  import vtuberLogo from './scripts/index.logo.vue'
-  import GitHubReleases from './scripts/githubReleases.vue';
+  import vtuberLogo from './scripts/index.logo.vue';
 
   document.title = "Collapse Launcher - Advanced Game Launcher";
 </script>
-<GitHubReleases />
 
 
 &nbsp;
