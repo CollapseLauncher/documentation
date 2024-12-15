@@ -56,6 +56,7 @@ features:
   import TransifexLogo from './scripts/TransifexLogo.vue';
   import SignPathLogo from './scripts/SignPathLogo.vue';
   import SentryLogo from './scripts/SentryLogo.vue';
+  import footerHi from './scripts/footer.vue';
 
   if (typeof document !== 'undefined') {
     document.title = "Collapse Launcher - Advanced Game Launcher";
@@ -129,3 +130,5 @@ Free code signing provided by [SignPath.io], certificate by [SignPath Foundation
         <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FHi3Helper.Sophon.svg?type=large&issueType=license" alt="Sophon FOSSA Status" width=280/>
     </a>
 </p>
+
+<footerHi />
