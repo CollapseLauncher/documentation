@@ -18,16 +18,17 @@ Therefore, this delta-patch will only be available for certain regions for each 
 * Korea *
 * Japan *
 
-> *: The delta-patch feature is tentatively available for this region.
 ## Honkai: Star Rail
 * Global
 * Mainland China *
 * Bilibili ** *
 
-> *: The delta-patch feature is tentatively available for this region.<br/>
-> **: The delta-patch for Mainland China can be applied for Bilibili by renaming the "Region Code" from "SRCN" to "HSRCNBilibili" of the .patch file.
+::: info
+*: The delta-patch feature is tentatively available for this region.<br/>
+**: The delta-patch for Mainland China can be applied for Bilibili by renaming the "Region Code" from "SRCN" to "HSRCNBilibili" of the .patch file.
+:::
 
-# How-To
+## How-To
 ### 1. Download the ``.patch`` (Delta-patch) file
 Collapse no longer downloads the *Delta-patch* file automatically due to their size. You have to download the "**Delta-patch**" file to be used for the update.
 For more up-to-date links, please [join our Discord server!](https://discord.gg/vJd2exaS7j). Once you have joined to the Discord Server, make sure to check the specific #delta-patch channel in the "Git Feeds" category. Then find the link to download the delta-patch file.
@@ -41,11 +42,12 @@ For example, if you wanted to update your game to version 7.8, then go to ``7.7.
 
 You will find a few delta-patch files to choose from. Select the region you want to update to, then click on the "``...``" icon at the right side of the file and select ``Download`` to download the file to your machine.
 
-> Note:
-> The following region codes are used to identify regions which are compatible with the Delta Patch update format
+::: info
+The following region codes are used to identify regions which are compatible with the Delta Patch update format
 > - ``Hi3SEA`` -> Southeast Asia
 > - ``Hi3Global`` -> Global
 > - ``Hi3CN`` -> Mainland China
+:::
 
 [<img width="720" src="https://github.com/user-attachments/assets/e4c8f888-22b1-4d0f-a6dd-05e2e7e0d968"/>](https://github.com/user-attachments/assets/e4c8f888-22b1-4d0f-a6dd-05e2e7e0d968)
 
