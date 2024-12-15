@@ -39,8 +39,6 @@ hero:
     - theme: alt
       text: Meet the Team
       link: /team
-
-
 features:
   - title: Multi-region Support
     details: Able to manage multiple region (including cross-server region) games
@@ -48,6 +46,10 @@ features:
     details: Repair all the game assets without even opening the game
   - title: Sophon API Support
     details: Able to use Sophon API on supported games for faster and smaller game downloads/update
+  - title: Delta Patch
+    details: Up to 10X less update download size for certain region by utilizing HDiffZ folder comparison method.
+    link: feature/delta-patch
+    linkText: Learn more
 ---
 <script setup>
   import './index.css'
@@ -71,6 +73,8 @@ features:
 
 ## Why "Collapse"?
 Collapse came from the **Honkai Impact** translation in Chinese and Japanese. The word came from [**崩坏**] or **Bēng huài** in Chinese and also [**崩壊**] or **Houkai** in Japanese, both meaning "**Collapse**" which is why we chose it as our launcher name with the added inspiration that this was supposed to be an alternative (enhanced) launcher for *Honkai Impact 3rd* in the first place.
+
+## Overview
 
 **Collapse** contains advanced features for **Honkai Impact 3rd** that not only provide you with the ability to download and launch the game, but also some additional features that the Official Launcher doesn't have, including:
 * Caches Download (aka "Updating Settings" in-game).
