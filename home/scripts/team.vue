@@ -1,5 +1,6 @@
 <template>
   <section class="team-section">
+    <h1><strong>Meet the Team</strong></h1>
     <div class="team-category">
       <h2>Core Developers</h2>
       <p>&nbsp;</p>
@@ -41,7 +42,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
   .team-section {
     font-family: Arial, sans-serif;
     padding: 2em;

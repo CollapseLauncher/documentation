@@ -7,7 +7,7 @@
     </span></p>
 </template>
 
-<style>
+<style scoped>
 .footer {
     text-align: center;
     font-size: 1em;
@@ -28,9 +28,9 @@
     padding: 5px;
     position: absolute;
     z-index: 1;
-    top: 125%; /* Position the tooltip below the text */
+    top: 100%; /* Position the tooltip below the text */
     left: 50%;
-    margin-left: -60px;
+    transform: translateX(-50%); /* Center horizontally */
     opacity: 0;
     transition: opacity 0.3s;
 }

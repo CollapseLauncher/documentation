@@ -12,6 +12,4 @@ sidebar: false
 
 &nbsp;
 
-# Meet the Team
-
 <teamPage />
