@@ -49,6 +49,18 @@ export default {
         return {
             games
         };
+    },
+    mounted() {
+        this.setTooltipColors();
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', this.setTooltipColors);
+    },
+    methods: {
+        setTooltipColors() {
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            document.documentElement.style.setProperty('--tooltip-bg-color', isDarkMode ? '#fff' : '#555');
+            document.documentElement.style.setProperty('--tooltip-text-color', isDarkMode ? '#000' : '#fff');
+            document.documentElement.style.setProperty('--tooltip-identifier-color', isDarkMode ? '#fff' : '#000');
+        }
     }
 };
 </script>
@@ -61,8 +73,10 @@ export default {
 .featureTable {
     width: 100%;
     overflow-x: auto;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
+    justify-self: center;
+    justify-content: center;
 }
 
 .legends {
@@ -75,6 +89,7 @@ export default {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    max-width: 1500px;
 }
 
 .featureTable table {
@@ -131,8 +146,8 @@ export default {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: #555;
-    color: #fff;
+    background-color: var(--tooltip-bg-color, #555);
+    color: var(--tooltip-text-color, #fff);
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -153,6 +168,6 @@ export default {
 .tooltip sup {
     font-size: 0.6em;
     vertical-align: super;
-    color: #555;
+    color: var(--tooltip-identifier-color, #000); /* Default to black */
 }
 </style>

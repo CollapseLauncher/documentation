@@ -115,7 +115,7 @@ Free code signing provided by [SignPath.io], certificate by [SignPath Foundation
 [SignPath Foundation]:https://signpath.org
 [SignPath.io]:https://signpath.io
 
-## FOSSA Analysis For Key Projects
+## License Compliance Analysis For Key Projects
 <p align="center" style="vertical-align: top;">
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
         <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse.svg?type=large&issueType=license" alt="Collapse FOSSA Status" width=280/>
