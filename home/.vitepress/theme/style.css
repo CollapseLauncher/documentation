@@ -155,7 +155,7 @@
 }
 
 :root {
-  --vp-layout-max-width: 2200px;
+  --vp-layout-max-width: 1600px;
 }
 
 .VPDoc:not(.has-sidebar) .container {
