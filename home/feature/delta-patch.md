@@ -35,7 +35,9 @@ For more up-to-date links, please [join our Discord server!](https://discord.gg/
 
 [<img width="720" src="https://github.com/user-attachments/assets/70baf253-37da-47a8-a627-f8f0da181153"/>](https://github.com/user-attachments/assets/70baf253-37da-47a8-a627-f8f0da181153)
 
-> Link will not be provided here no more due to changes that might need to be checked before a patch can apply. Please join the server for more up-to-date announcements.
+::: info
+Link will not be provided here no more due to changes that might need to be checked before a patch can apply. Please join the server for more up-to-date announcements.
+:::
 
 Once you opened the link, you will find the folder which contains each of the version to be updated to.
 For example, if you wanted to update your game to version 7.8, then go to ``7.7.0 - 7.8.0`` folder, etc.
@@ -54,15 +56,18 @@ The following region codes are used to identify regions which are compatible wit
 ### 2. Move the ``.patch`` (Recipe) file to Game Folder
 Once the download has finished, move the ``.patch`` file to the game folder. 
 
-> To find out where your game is installed, open Collapse, select the correct game & region, and click on the ``Game Settings`` button and find the ``Open Game Folder`` 
-> button to open the game folder.
+::: tip
+To find out where your game is installed, open Collapse, select the correct game & region, and click on the ``Game Settings`` button and find the ``Open Game Folder`` button to open the game folder.
+:::
 
 ### 3. Start the Update
 Once you have successfully moved the file to your game directory, Collapse will automatically detect click on the Delta-patch file. If it does not, please restart the launcher before attempting the update operation.
 
 Once the file has been detected, click on the ``Update Game`` button and click ``Yes`` at the dialog. While the process is running, please **DO NOT CLOSE** the launcher and **Do not Panic** if the progress bar does not move or the program becomes unresponsive.
 
-> There is a high chance of your game files being corrupted if you interrupt this process. You **cannot** downgrade to a previous version once you update your game. However, you can convert back to your previous version by downloading the correct recipe file. Collapse is not responsible for game data corruption. Update time varies depending on system configuration.
+::: warning
+There is a high chance of your game files being corrupted if you interrupt this process. You **cannot** downgrade to a previous version once you update your game. Collapse is not responsible for game data corruption. Update time varies depending on system configuration.
+:::
 
 [<img width="1280" src="https://user-images.githubusercontent.com/30566970/171479757-fb49adb9-2658-4c54-b69b-8603d14b3845.png"/>](https://user-images.githubusercontent.com/30566970/171479757-fb49adb9-2658-4c54-b69b-8603d14b3845.png)
 
