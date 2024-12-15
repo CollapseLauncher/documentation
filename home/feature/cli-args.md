@@ -2,6 +2,10 @@
 title: Command Line Arguments | Collapse Launcher
 ---
 
+<script setup lang="ts">
+import GameRegionTable from '../scripts/cli.openTable.vue';
+</script>
+
 # What is a command line argument?
 
 Command line arguments are special instructions that can be passed to Collapse when launching it. They can temporarily change Collapse's behaviour at start-up. Only one argument can be used per launch.
@@ -12,8 +16,10 @@ To use a command line argument, you can either:
 
 - Use Windows' **Run window** or a **web browser** to call Collapse's URL Protocol.
   <br> (e.g., `collapse://tray`)
+---
+&nbsp;
 
-# What command line arguments are available to use?
+<h1> What command line arguments are available to use? </h1>
 
 ## tray
 Starts Collapse hidden in the system tray.
@@ -30,12 +36,12 @@ collapse://tray
 Loads a specific game/region when launching Collapse.
 
 ### Options
-#### REQUIRED
+### REQUIRED
 - `-g <game name/ID>` or `--game <game name/id>`
   <br> Specifies the game to load.
   <br> If invalid, the entire command will be ignored.
 
-#### OPTIONAL
+### OPTIONAL
 - `-r <region name/id>` or `--region <region name/id>`
   <br> Specifies the region to load.
   <br> If not specified or invalid, the last opened region for the game will be opened.
@@ -47,61 +53,7 @@ Loads a specific game/region when launching Collapse.
 - If the game/region name has spaces, the name must be enclosed by quotes.
 - The ID of a game/region corresponds to their position in the Launcher Selector (being the first game/region at position 0). Some examples of IDs are:
 
-<div align="center">
-
-<table>
-<tr>
-<td>
-<table>
-	<thead>
-		<tr>
-			<th colspan=2>Game</th>
-			<th>ID</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td colspan=2>Honkai Impact 3rd</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td colspan=2>Genshin Impact</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td>Honkai: Star Rail</td>
-			<td colspan=2>2</td>
-		</tr>
-	</tbody>
-</table>
-</td>
-<td>
-<table>
-	<thead>
-		<tr>
-			<th colspan=2>Regions for Genshin Impact</th>
-			<th>ID</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td colspan=2>Global</td>
-			<td>0</td>
-		</tr>
-		<tr>
-			<td colspan=2>Mainland China</td>
-			<td>1</td>
-		</tr>
-		<tr>
-			<td>Bilibili</td>
-			<td colspan=2>2</td>
-		</tr>
-	</tbody>
-</table>
-</td>
-</tr>
-</table>
-</div>
+<div align="center"> <GameRegionTable /> </div>
 
 ### Examples
 - Load Genshin Impact (last used region)
