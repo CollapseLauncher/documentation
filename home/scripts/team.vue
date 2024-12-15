@@ -1,7 +1,5 @@
 <template>
   <section class="team-section">
-    <h1>Meet the Team</h1>
-
     <div class="team-category">
       <h2>Core Developers</h2>
       <p>&nbsp;</p>
