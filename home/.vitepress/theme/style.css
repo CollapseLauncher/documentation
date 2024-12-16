@@ -68,6 +68,8 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --vp-font-family-base: "Segoe UI Variable", "Segoe UI", Roboto, Arial, sans-serif;
 }
 
 /**
@@ -156,6 +158,10 @@
 
 :root {
   --vp-layout-max-width: 1600px;
+}
+
+body {
+  font-family: var(--vp-font-family-base);
 }
 
 .VPDoc:not(.has-sidebar) .container {
