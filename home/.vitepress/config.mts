@@ -39,7 +39,13 @@ export default defineConfig({
       {
         text: 'Advanced Features',
         items: [
-          { text: 'Game Launch Commands', link: '/feature/game-commands' },
+          { text: 'Game launch commands', link: '/feature/game-commands' },
+        ]
+      },
+      {
+        text: 'For Developers',
+        items: [
+          {text: 'Contribution guidelines', link: 'docs/contrib'},
         ]
       }
     ],
