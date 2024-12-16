@@ -8,6 +8,9 @@ export default defineConfig({
     ['link', { rel: 'icon', href: 'icon.ico' }]
   ],
   themeConfig: {
+    search:{
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     logo: '/img/logo.png',
     nav: [
