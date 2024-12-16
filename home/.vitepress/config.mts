@@ -45,7 +45,14 @@ export default defineConfig({
       {
         text: 'For Developers',
         items: [
-          {text: 'Contribution guidelines', link: 'docs/contrib'},
+          {text: 'Contribution guidelines', link: 'docs/contrib'}
+        ]
+      },
+      {
+        text: 'Legals',
+        items: [
+          {text: 'License', link: 'docs/license'},
+          {text: 'Third party notices', link: 'docs/third_party_notices'}
         ]
       }
     ],

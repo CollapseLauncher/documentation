@@ -2,7 +2,7 @@
 title: Data Sync | Collapse Launcher
 ---
 # User Data Synchronization
-You can set-up completely private data synchronization that only you have access to. Currently only implemented for playtime data but more coming soon(tm).
+You can set-up completely private data synchronization that only you have access to. Currently only implemented for playtime data but more coming soon<sup>tm</sup>.
 
 ## Creating Database
 

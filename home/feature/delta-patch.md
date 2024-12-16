@@ -13,19 +13,19 @@ Therefore, this delta-patch will only be available for certain regions for each 
 ## Honkai Impact 3rd
 * Southeast Asia
 * Global
-* Mainland China *
-* TW/HK/MO *
-* Korea *
-* Japan *
+* Mainland China<sup> *</sup>
+* TW/HK/MO<sup> *</sup>
+* Korea<sup> *</sup>
+* Japan<sup> *</sup>
 
 ## Honkai: Star Rail
 * Global
-* Mainland China *
-* Bilibili ** *
+* Mainland China<sup> *</sup>
+* Bilibili<sup> * **</sup>
 
 ::: info
-*: The delta-patch feature is tentatively available for this region.<br/>
-**: The delta-patch for Mainland China can be applied for Bilibili by renaming the "Region Code" from "SRCN" to "HSRCNBilibili" of the .patch file.
++ *: The delta-patch feature is tentatively available for this region.<br/>
++ **: The delta-patch for Mainland China can be applied for Bilibili by renaming the "Region Code" from "SRCN" to "HSRCNBilibili" of the .patch file.
 :::
 
 ## How-To

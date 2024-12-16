@@ -34,7 +34,7 @@ hero:
     #   text: Documentation
     #   link: /markdown-examples
     - theme: alt
-      text: Features
+      text: Feature Docs
       link: /features
     - theme: alt
       text: Meet the Team
