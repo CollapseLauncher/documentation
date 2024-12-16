@@ -1,10 +1,12 @@
 <template>
-    <p>&nbsp;</p>
-    <p class="footer">built with <span class="tooltip">💗
-        <div class="tooltip-content">
-            <img src="/img/cat.gif" alt="Cat">
-        </div>
-    </span></p>
+    <footerHi>
+        <p>&nbsp;</p>
+        <p class="footer">built with <span class="tooltip">💗
+            <div class="tooltip-content">
+                <img src="/img/cat.gif" alt="Cat">
+            </div>
+        </span></p>
+    </footerHi> 
 </template>
 
 <style scoped>

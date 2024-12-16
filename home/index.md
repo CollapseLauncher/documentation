@@ -41,11 +41,11 @@ hero:
       link: /team
 features:
   - title: Multi-region Support
-    details: Able to manage multiple region (including cross-server region) games
+    details: Manage multiple region (including cross-server region) games
   - title: Game Repair
     details: Repair all the game assets without even opening the game
   - title: Sophon API Support
-    details: Able to use Sophon API on supported games for faster and smaller game downloads/update
+    details: Use Sophon API on supported games for faster and smaller game downloads/update
   - title: Delta Patch
     details: Up to 10X less update download size for certain region by utilizing HDiffZ folder comparison method.
     link: feature/delta-patch
