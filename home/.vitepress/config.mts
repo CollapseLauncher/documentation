@@ -5,7 +5,11 @@ export default defineConfig({
   title: "Collapse Launcher",
   description: "An advanced launcher for HoYoverse Games",
   head: [
-    ['link', { rel: 'icon', href: 'icon.ico' }]
+    ['link', { rel: 'icon', href: 'favicon.ico' }],
+    ['meta', { property: 'og:title', content: 'Collapse Launcher' }],
+    ['meta', { property: 'og:description', content: 'An advanced launcher for HoYoverse Games' }],
+    ['meta', { property: 'og:image', content: 'https://collapse.launcher.gg/img/banner.webp' }],
+    ['meta', { property: 'og:url', content: 'https://collapselauncher.com' }],
   ],
   themeConfig: {
     search:{
