@@ -6,7 +6,7 @@
       <p>&nbsp;</p>
       <div class="team-member core-developers" :class="{ 'reverse': index % 2 !== 0 }" v-for="(member, index) in coreDevelopers" :key="member.name">
         <a :href="member.github" target="_blank">
-          <img :src="member.image" :alt="member.name" />
+          <img :src="member.image" :alt="member.name" :loading="lazy" />
         </a>
         <div class="info" :class="{ 'align-right': index % 2 !== 0 }">
           <a :href="member.github" target="_blank"><h3>{{ member.name }} <span>({{ member.username }})</span></h3></a>
@@ -20,7 +20,7 @@
       <div class="contributors-grid">
         <div class="contributor" v-for="contributor in contributors" :key="contributor.name">
           <a :href="contributor.link" target="_blank">
-            <img :src="contributor.image" :alt="contributor.name" />
+            <img :src="contributor.image" :alt="contributor.name" :loading="lazy"/>
           </a>
           <a :href="contributor.link" target="_blank"><p><strong>{{ contributor.name }}</strong></p></a>
           <p>{{ contributor.contributions }}</p>
