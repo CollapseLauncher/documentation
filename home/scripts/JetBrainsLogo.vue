@@ -17,23 +17,20 @@
 </template>
 
 <style scoped>
-.logo {
-  height: 70px;
-  display: block;
-}
-
 .logo-wrapper {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: row; /* Horizontal alignment */
+  justify-content: center; /* Center logos horizontally */
+  align-items: center; /* Align logos vertically */
+  gap: 10px; /* Add space between images */
+  flex-wrap: wrap; /* Allows wrapping if needed */
 }
 
-.attribution {
-  font-size: 12px;
-  text-align: center;
-  margin-top: 20px;
+.logo {
+  height: 70px;
+  width: auto; /* Maintain aspect ratio */
+  flex: 0 0 auto; /* Prevent stretching */
+  margin: 0; /* Remove unwanted margins */
 }
 
 html.dark .light-only {
