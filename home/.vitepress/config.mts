@@ -16,6 +16,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.webp' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }]
   ],
+  appearance: 'dark',
   themeConfig: {
     search:{
       provider: 'local'
