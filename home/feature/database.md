@@ -18,6 +18,7 @@ Also select the database location to wherever closest to you for the best connec
 <figure style="text-align: center;">
   <img src="/img/feature/db1.png" style="display: block; margin: 0 auto;" width="480">
 </figure>
+&nbsp;
 
 3. Create database
 ::: info
@@ -31,6 +32,7 @@ Do NOT enable "Schema Only"
 <figure style="text-align: center;">
   <img src="/img/feature/db2.png" style="display: block; margin: 0 auto;" width="480">
 </figure>
+&nbsp;
 
 4. Copy the database URL by clicking on it. Paste it on the database URL field in Collapse settings
 ::: info
@@ -40,6 +42,7 @@ Do not worry about the URL protocol automatically changed from `libsql://` to `h
 <figure style="text-align: center;">
   <img src="/img/feature/db3.png" style="display: block; margin: 0 auto;" width="480">
 </figure>
+&nbsp;
 
 5. Press the three dots menu next to the database you created, then press Create Token
 ::: info
@@ -57,6 +60,7 @@ Sharing Database URL and its token to anyone else will give them FULL access to 
 ::: info
 Paste the created token into Collapse setting field
 :::
+&nbsp;
 
 6. Create User ID
 ::: info
@@ -68,7 +72,10 @@ You can use any string combination or press the Generate UID to automatically ge
 ::: danger
 Do not ever lose this ID as you will not be able to access your data again without complicated database table moving.
 :::
+&nbsp;
+
 7. Validate the Settings
 ::: info
 By pressing `Validate and Save` button, Collapse will try to verify the connection to the database and see if everything is good. If there is an error, it will be shown in a pop-up dialog and the settings won't be saved.
 :::
+&nbsp;
