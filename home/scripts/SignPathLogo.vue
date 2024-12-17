@@ -1,6 +1,6 @@
 <template>
   <a href="https://signpath.org/about/">
-    <img src="/img/logo/signpath.png" alt="SignPath Logo" class="logo" />
+    <img src="/img/logo/signpath.png" alt="SignPath Logo" class="logo" loading="lazy" />
   </a>
 </template>
 

@@ -2,7 +2,6 @@
 title: Delta Patch | Collapse Launcher
 ---
 
-
 # What's Delta Patch Update Feature?
 The Delta Patch Update feature is an update function that Collapse uses which doesn't require you to re-download the entire game (with the benefit of having a reduced download size). This feature will only update the differences between files (hence the "Delta" name) from previous to the next version and produces the new patched files which will be used for the updating the upcoming version.
 
@@ -33,7 +32,9 @@ Therefore, this delta-patch will only be available for certain regions for each 
 Collapse no longer downloads the *Delta-patch* file automatically due to their size. You have to download the "**Delta-patch**" file to be used for the update.
 For more up-to-date links, please [join our Discord server!](https://discord.gg/vJd2exaS7j). Once you have joined to the Discord Server, make sure to check the specific #delta-patch channel in the "Git Feeds" category. Then find the link to download the delta-patch file.
 
-<img width="720" src="/img/feature/delta1.webp"/>
+<figure style="text-align: center;">
+  <img src="/img/feature/delta1.webp" style="display: block; margin: 0 auto;" width="720">
+</figure>
 
 ::: info
 Link will not be provided here no more due to changes that might need to be checked before a patch can apply. Please join the server for more up-to-date announcements.
@@ -51,7 +52,10 @@ The following region codes are used to identify regions which are compatible wit
 > - ``Hi3CN`` -> Mainland China
 :::
 
-<img width="720" src="/img/feature/delta2.png"/>
+<figure style="text-align: center;">
+  <img src="/img/feature/delta2.png" style="display: block; margin: 0 auto;" width="960">
+</figure>
+
 
 ### 2. Move the ``.patch`` (Recipe) file to Game Folder
 Once the download has finished, move the ``.patch`` file to the game folder. 
@@ -70,4 +74,7 @@ There is a high chance of your game files being corrupted if you interrupt this 
 :::
 
 ## TL;DR: How-To
-<img width="1280" src="/img/feature/delta3.webp"/>
+
+<figure style="text-align: center;">
+  <img src="/img/feature/delta3.webp" style="display: block; margin: 0 auto;">
+</figure>

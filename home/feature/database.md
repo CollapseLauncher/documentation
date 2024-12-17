@@ -15,7 +15,9 @@ Fly.io is the most free one available, so we'd recommend choosing that.
 Also select the database location to wherever closest to you for the best connection latency.
 :::
 
-[<img width="720" src="/img/feature/db1.png"/>](/img/feature/db1.png)
+<figure style="text-align: center;">
+  <img src="/img/feature/db1.png" style="display: block; margin: 0 auto;" width="480">
+</figure>
 
 3. Create database
 ::: info
@@ -26,14 +28,18 @@ Name it however you like and pick the group you just made in the earlier step
 Do NOT enable "Schema Only"
 :::
 
-[<img width="720" src="/img/feature/db2.png"/>](/img/feature/db2.png)
+<figure style="text-align: center;">
+  <img src="/img/feature/db2.png" style="display: block; margin: 0 auto;" width="480">
+</figure>
 
 4. Copy the database URL by clicking on it. Paste it on the database URL field in Collapse settings
 ::: info
 Do not worry about the URL protocol automatically changed from `libsql://` to `https://`. It is done automatically by Collapse due to limitation in the library we used to connect to the database
 :::
 
-[<img width="720" src="/img/feature/db3.png"/>](/img/feature/db3.png)
+<figure style="text-align: center;">
+  <img src="/img/feature/db3.png" style="display: block; margin: 0 auto;" width="480">
+</figure>
 
 5. Press the three dots menu next to the database you created, then press Create Token
 ::: info
@@ -44,7 +50,9 @@ Set the expiration to `No expiration` and the access to be `Read & Write`
 Sharing Database URL and its token to anyone else will give them FULL access to the database, including modifying and deleting your entire database. Be careful with it.
 :::
 
-![image](https://github.com/user-attachments/assets/b2274cd4-ab8b-414b-9f94-81f7035cb64d)
+<figure style="text-align: center;">
+  <img src="/img/feature/db4.png" style="display: block; margin: 0 auto;" width="480">
+</figure>
 
 ::: info
 Paste the created token into Collapse setting field
