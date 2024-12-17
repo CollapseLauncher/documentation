@@ -3,7 +3,7 @@
         <p>&nbsp;</p>
         <p class="footer">built with <span class="tooltip">💗
             <div class="tooltip-content">
-                <img src="/img/cat.gif" alt="Cat">
+                <img src="/img/cat.webp" alt="uu ii aa uu ii aa u">
             </div>
         </span></p>
     </footerHi> 

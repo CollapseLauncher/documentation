@@ -5,18 +5,23 @@ export default defineConfig({
   title: "Collapse Launcher",
   description: "An advanced launcher for HoYoverse Games",
   head: [
-    ['link', { rel: 'icon', href: 'favicon.ico' }],
     ['meta', { property: 'og:title', content: 'Collapse Launcher' }],
     ['meta', { property: 'og:description', content: 'An advanced launcher for HoYoverse Games' }],
     ['meta', { property: 'og:image', content: 'https://collapselauncher.com/img/banner.webp' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { property: 'og:url', content: 'https://collapselauncher.com' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.webp' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.webp' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.webp' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }]
   ],
   themeConfig: {
     search:{
       provider: 'local'
     },
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/img/logo.png',
+    logo: '/img/logo.webp',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Team', link: '/team' },

@@ -33,7 +33,7 @@ Therefore, this delta-patch will only be available for certain regions for each 
 Collapse no longer downloads the *Delta-patch* file automatically due to their size. You have to download the "**Delta-patch**" file to be used for the update.
 For more up-to-date links, please [join our Discord server!](https://discord.gg/vJd2exaS7j). Once you have joined to the Discord Server, make sure to check the specific #delta-patch channel in the "Git Feeds" category. Then find the link to download the delta-patch file.
 
-[<img width="720" src="https://github.com/user-attachments/assets/70baf253-37da-47a8-a627-f8f0da181153"/>](https://github.com/user-attachments/assets/70baf253-37da-47a8-a627-f8f0da181153)
+<img width="720" src="/img/feature/delta1.webp"/>
 
 ::: info
 Link will not be provided here no more due to changes that might need to be checked before a patch can apply. Please join the server for more up-to-date announcements.
@@ -51,7 +51,7 @@ The following region codes are used to identify regions which are compatible wit
 > - ``Hi3CN`` -> Mainland China
 :::
 
-[<img width="720" src="https://github.com/user-attachments/assets/e4c8f888-22b1-4d0f-a6dd-05e2e7e0d968"/>](https://github.com/user-attachments/assets/e4c8f888-22b1-4d0f-a6dd-05e2e7e0d968)
+<img width="720" src="/img/feature/delta2.png"/>
 
 ### 2. Move the ``.patch`` (Recipe) file to Game Folder
 Once the download has finished, move the ``.patch`` file to the game folder. 
@@ -69,5 +69,5 @@ Once the file has been detected, click on the ``Update Game`` button and click `
 There is a high chance of your game files being corrupted if you interrupt this process. You **cannot** downgrade to a previous version once you update your game. Collapse is not responsible for game data corruption. Update time varies depending on system configuration.
 :::
 
-[<img width="1280" src="https://user-images.githubusercontent.com/30566970/171479757-fb49adb9-2658-4c54-b69b-8603d14b3845.png"/>](https://user-images.githubusercontent.com/30566970/171479757-fb49adb9-2658-4c54-b69b-8603d14b3845.png)
-
+## TL;DR: How-To
+<img width="1280" src="/img/feature/delta3.webp"/>

@@ -1,6 +1,7 @@
 <template>
   <a href="https://sentry.io/about/">
-    <img src="https://raw.githubusercontent.com/CollapseLauncher/.github/main/profile/sentry-wordmark-light-400x119.png" alt="Sentry Logo" class="logo" />
+    <img src="/img/logo/sentry-light.svg" alt="Sentry Logo" class="logo dark-only" loading="lazy"/>
+    <img src="/img/logo/sentry-dark.svg" alt="Sentry Logo" class="logo light-only" loading="lazy"/>
   </a>
 </template>
 
@@ -10,6 +11,14 @@
 
 <style scoped>
 .logo {
-  height: 80px;
+  height: 70px;
+}
+
+html.dark .light-only {
+  display: none !important;
+}
+
+html:not(.dark) .dark-only {
+  display: none !important;
 }
 </style>

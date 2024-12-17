@@ -12,7 +12,7 @@ hero:
   text: "An advanced launcher for HoYoverse Games"
   tagline: Take the control upon your hands
   image:
-    src: /img/logo.png
+    src: /img/logo.webp
     alt: Collapse Launcher Logo
     style:
       size: 200%
@@ -123,15 +123,15 @@ Free code signing provided by [SignPath.io], certificate by [SignPath Foundation
 ## License Compliance Analysis For Key Projects
 <p align="center" style="vertical-align: top;">
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
-        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse.svg?type=large&issueType=license" alt="Collapse FOSSA Status" width=280/>
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FCollapse.svg?type=large&issueType=license" alt="Collapse FOSSA Status" width=280 loading="lazy"/>
     </a>
     &nbsp;
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FSharpHDiffPatch.Core?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
-        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FSharpHDiffPatch.Core.svg?type=large&issueType=license" alt="SharpHDiffPatch FOSSA Status" width=280/>
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FSharpHDiffPatch.Core.svg?type=large&issueType=license" alt="SharpHDiffPatch FOSSA Status" width=280 loading="lazy"/>
     </a>
     &nbsp;
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FCollapseLauncher%2FHi3Helper.Sophon?ref=badge_large&issueType=license" target="_blank" style="display: inline-block; vertical-align: top;">
-        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FHi3Helper.Sophon.svg?type=large&issueType=license" alt="Sophon FOSSA Status" width=280/>
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FCollapseLauncher%2FHi3Helper.Sophon.svg?type=large&issueType=license" alt="Sophon FOSSA Status" width=280 loading="lazy"/>
     </a>
 </p>
 

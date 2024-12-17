@@ -15,7 +15,7 @@ Fly.io is the most free one available, so we'd recommend choosing that.
 Also select the database location to wherever closest to you for the best connection latency.
 :::
 
-![image](https://github.com/user-attachments/assets/b6679b4d-3ef9-4299-a993-bc55d234efef)
+[<img width="720" src="/img/feature/db1.png"/>](/img/feature/db1.png)
 
 3. Create database
 ::: info
@@ -26,14 +26,14 @@ Name it however you like and pick the group you just made in the earlier step
 Do NOT enable "Schema Only"
 :::
 
-![image](https://github.com/user-attachments/assets/31984f3f-1e7e-448e-9203-459e281afc34)
+[<img width="720" src="/img/feature/db2.png"/>](/img/feature/db2.png)
 
 4. Copy the database URL by clicking on it. Paste it on the database URL field in Collapse settings
 ::: info
 Do not worry about the URL protocol automatically changed from `libsql://` to `https://`. It is done automatically by Collapse due to limitation in the library we used to connect to the database
 :::
 
-![image](https://github.com/user-attachments/assets/f83fde8c-115e-4f51-a882-ddccf8005726)
+[<img width="720" src="/img/feature/db3.png"/>](/img/feature/db3.png)
 
 5. Press the three dots menu next to the database you created, then press Create Token
 ::: info
