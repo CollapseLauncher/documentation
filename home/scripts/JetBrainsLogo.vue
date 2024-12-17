@@ -17,21 +17,29 @@
 </template>
 
 <style scoped>
+.logo-container {
+  display: flex; /* Makes <a> tag a flex container */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Align images vertically */
+  gap: 10px; /* Space between images */
+}
+
 .logo-wrapper {
-  display: flex;
-  flex-direction: row; /* Horizontal alignment */
-  justify-content: center; /* Center logos horizontally */
-  align-items: center; /* Align logos vertically */
-  gap: 10px; /* Add space between images */
-  flex-wrap: wrap; /* Allows wrapping if needed */
+  display: flex; /* Makes <a> tag a flex container */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Align images vertically */
+  gap: 10px; /* Space between images */
 }
 
 .logo {
   height: 70px;
   width: auto; /* Maintain aspect ratio */
-  flex: 0 0 auto; /* Prevent stretching */
   margin: 0; /* Remove unwanted margins */
+  flex: 0 0 auto; /* Prevent any stretching */
 }
+
 
 html.dark .light-only {
   display: none !important;
