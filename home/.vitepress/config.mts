@@ -71,6 +71,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/CollapseLauncher/Collapse' },
       { icon: 'discord', link: 'https://discord.gg/vJd2exaS7j' }
     ]
-  }
+  },
+  sitemap:{
+    hostname: 'https://collapselauncher.com'
+  },
+  lastUpdated: true
 })
 
