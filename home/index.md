@@ -85,7 +85,7 @@ Collapse came from the **Honkai Impact** translation in Chinese and Japanese. Th
 * Global to SEA version (or vice versa) conversion.
 * Multi-session Download for faster Game Download/Installation.
 * Multi-thread Game Extraction for faster installation.
-* Delta-Patch Update Mechanism for smaller updates ([**Click here**](https://github.com/neon-nyan/CollapseLauncher/wiki/Update-Game-Region-with-Delta-Patch) for more info).
+* Delta-Patch Update Mechanism for smaller updates.
 * Ability to select Graphics API (DirectX 11 (FL: 10.1, 11.0 and 11.1) and DirectX 12 [May crash the game in newer stages]).
 
 Not only that, this launcher also has some advanced features for **Genshin Impact**, including but not limited to:
