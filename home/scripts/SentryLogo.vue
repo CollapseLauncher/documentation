@@ -1,5 +1,5 @@
 <template>
-  <a href="https://sentry.io/about/">
+  <a href="https://sentry.io/about/" class="logo-container" target="_blank">
     <img src="/img/logo/sentry-light.svg" alt="Sentry Logo" class="logo dark-only" loading="lazy"/>
     <img src="/img/logo/sentry-dark.svg" alt="Sentry Logo" class="logo light-only" loading="lazy"/>
   </a>
@@ -10,6 +10,10 @@
 </script>
 
 <style scoped>
+.logo-container {
+  display: inline-block; /* Makes <a> tag a inline-block container */
+}
+
 .logo {
   height: 70px;
 }

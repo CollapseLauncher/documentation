@@ -1,5 +1,5 @@
 <template>
-  <a href="https://jb.gg/OpenSourceSupport" class="logo-container">
+  <a href="https://jb.gg/OpenSourceSupport" class="logo-container" target="_blank">
     <div class="logo-wrapper dark-only">
       <img src="/img/logo/rider-light.svg" alt="Rider logo." loading="lazy" class="logo" />
       <img src="/img/logo/resharper-light.svg" alt="ReSharper logo." loading="lazy" class="logo" />
@@ -18,7 +18,7 @@
 
 <style scoped>
 .logo-container {
-  display: flex; /* Makes <a> tag a flex container */
+  display: inline-flex; /* Makes <a> tag a inline-flex container */
   flex-direction: row; /* Horizontal layout */
   justify-content: center; /* Center images horizontally */
   align-items: center; /* Align images vertically */
