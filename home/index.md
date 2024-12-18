@@ -37,6 +37,9 @@ hero:
       text: Feature Docs
       link: /features
     - theme: alt
+      text: Installation Guide
+      link: /docs/installation
+    - theme: alt
       text: Meet the Team
       link: /team
 features:

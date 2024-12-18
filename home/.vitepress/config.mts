@@ -38,6 +38,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Getting Started',
+        items: [
+          { text: 'Installation', link: '/docs/installation' },
+          { text: 'First launch', link: '/docs/first-launch' },
+          { text: 'Installing games', link: '/docs/game-installation' }
+        ]
+      },
+      {
         text: 'Features',
         items: [
           { text: 'Feature matrix', link: '/features' },
