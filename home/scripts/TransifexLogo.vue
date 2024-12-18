@@ -10,6 +10,6 @@
 
 <style scoped>
 .logo {
-  height: 80px;
+  height: 70px;
 }
 </style>
