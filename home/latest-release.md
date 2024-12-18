@@ -1,6 +1,8 @@
 ---
 title: Redirecting to Latest Release...
 layout: page
+sidebar: false
+navbar: false
 ---
 
 <script setup>
@@ -14,12 +16,9 @@ if (typeof window !== 'undefined') {
       const releases = await response.json();
       const latestRelease = releases.find(release => !release.prerelease);
       const latestReleaseUrl = latestRelease ? latestRelease.html_url : "#";
-      window.open(latestReleaseUrl, "_blank");
-      window.location.href = "/";
+      window.location.href = latestReleaseUrl;
     } catch (error) {
       console.error("Error fetching latest release:", error);
-      await delay(5000)
-      window.location.href = "/";
     }
   };
 

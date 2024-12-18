@@ -1,6 +1,8 @@
 ---
 title: Redirecting to Pre-Release...
 layout: page
+sidebar: false
+navbar: false
 ---
 
 <script setup>
@@ -14,12 +16,9 @@ if (typeof window !== 'undefined') {
       const releases = await response.json();
       const preRelease = releases.find(release => release.prerelease);
       const preReleaseUrl = preRelease ? preRelease.html_url : "#";
-      window.open(preReleaseUrl, "_blank");
-      window.location.href = "/";
+      window.location.href = preReleaseUrl;
     } catch (error) {
       console.error("Error fetching pre-release:", error);
-      await delay(5000)
-      window.location.href = "/";
     }
   };
 
