@@ -34,7 +34,7 @@ export default defineConfig({
         text: 'Download',
         items: [
           { text: 'Latest Stable', link: '/latest-release' },
-          { text: 'Latest Preview', link: '/pre-releaser' }
+          { text: 'Latest Preview', link: '/pre-release' }
         ]
       },
       {
