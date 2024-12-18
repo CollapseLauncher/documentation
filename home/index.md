@@ -100,16 +100,16 @@ Not only that, this launcher also has some advanced features for **Genshin Impac
 > The teams over at Collapse are really thankful for all of our users and contributors that has been keeping this project alive and well. We are also giving our outmost gratitude for these company/organization for providing their service for us.
 
 1. JetBrains for providing complete .NET suite and Qodana for our internal use
-<p align="center"><JetBrainsLogo /></p>
+<div align="center"><JetBrainsLogo /></div>
 
 2. Transifex for their translation platform
-<p align="center"><TransifexLogo /></p>
+<div align="center"><TransifexLogo /></div>
 
 3. SignPath Foundation for providing us free code signing!
-<p align="center"><SignPathLogo /></p>
+<div align="center"><SignPathLogo /></div>
 
 4. Sentry for providing us with error collection platform!
-<p align="center"><SentryLogo /></p>
+<div align="center"><SentryLogo /></div>
 
 
 ## Code Signing Policy
