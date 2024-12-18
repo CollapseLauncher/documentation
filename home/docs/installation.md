@@ -1,6 +1,12 @@
 ---
 title: Installation Guide | Collapse Launcher
 ---
+<script setup>
+    import WinKey from '../scripts/WinKey.vue';
+    if (typeof document !== 'undefined') {
+        document.title = "Installation Guide | Collapse Launcher";
+    }
+</script>
 
 # How-To: Install
 Installing Collapse Launcher is very easy. Everything you need to run the app is included as self-packaged application. Just need to download, install (optional), and run!
@@ -10,7 +16,7 @@ While this guide is pretty old, you can still use this guide as a general guidel
 :::
 
 ## Preparation Before Installing
-<p>Before installing, make sure that you're using Windows 10 (Version 1809 or above) or Windows 11 (any version). While Collapse <em>may</em> run on older versions or other operating systems, support <strong>will not be provided</strong>. To check your Windows build, press <kbd><img src="/img/logo/winKb.png" alt="Windows Key" style="display:inline;"/></kbd> + <kbd>R</kbd> on your keyboard and type <code>winver</code> &gt; press <code>Enter</code> or just click <kbd>OK</kbd>.</p>
+<p>Before installing, make sure that you're using Windows 10 (Version 1809 or above) or Windows 11 (any version). While Collapse <em>may</em> run on older versions or other operating systems, support <strong>will not be provided</strong>. To check your Windows build, press <kbd><WinKey/></kbd> + <kbd>R</kbd> on your keyboard and type <code>winver</code> &gt; press <code>Enter</code> or just click <kbd>OK</kbd>.</p>
 
 <figure style="text-align: center;">
   <img src="/img/docs/winver.png" alt="Run winver" title="Run winver" style="display: block; margin: 0 auto;" width="480">
