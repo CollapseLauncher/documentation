@@ -44,7 +44,7 @@ export default defineConfig({
       {
         text: 'Download',
         items: [
-          { text: 'Latest Stable', link: '/latest-release', target: '_blank' },
+          { text: 'Latest Stable', link: 'https://github.com/CollapseLauncher/Collapse/releases/latest', target: '_blank' },
           { text: 'Latest Preview', link: '/pre-release', target: '_blank' }
         ]
       },

@@ -22,7 +22,7 @@ hero:
   actions:
     - theme: brand
       text: Download Latest Release
-      link: /latest-release
+      link: https://github.com/CollapseLauncher/Collapse/releases/latest
       attributes:
         target: "_blank"
     - theme: brand
