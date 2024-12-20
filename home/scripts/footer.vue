@@ -1,12 +1,12 @@
 <template>
-    <footerHi>
+    <div>
         <p>&nbsp;</p>
-        <p class="footer">built with <span class="tooltip">💗
+        <div class="footer">built with <span class="tooltip">💗
             <div class="tooltip-content">
                 <img src="/img/cat.webp" alt="uu ii aa uu ii aa u">
             </div>
-        </span></p>
-    </footerHi> 
+        </span></div>
+    </div>
 </template>
 
 <style scoped>
