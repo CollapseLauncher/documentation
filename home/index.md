@@ -23,16 +23,11 @@ hero:
     - theme: brand
       text: Download Latest Release
       link: https://github.com/CollapseLauncher/Collapse/releases/latest
-      attributes:
-        target: "_blank"
+      target: "_blank"
     - theme: brand
       text: Download Beta Release
       link: /pre-release
-      attributes:
-        target: "_blank"
-    # - theme: brand
-    #   text: Documentation
-    #   link: /markdown-examples
+      target: "_blank"
     - theme: alt
       text: Feature Docs
       link: /features
