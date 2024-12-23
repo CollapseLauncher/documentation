@@ -28,6 +28,7 @@
 .logo-wrapper {
   display: flex; /* Makes <a> tag a flex container */
   flex-direction: row; /* Horizontal layout */
+  flex-wrap: wrap; /* Wrap contents */
   justify-content: center; /* Center images horizontally */
   align-items: center; /* Align images vertically */
   gap: 10px; /* Space between images */
