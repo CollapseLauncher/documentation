@@ -20,6 +20,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'description', content: 'An advanced launcher for HoYoverse Games. Built with C#/.NET with WinUI and open sourced. Supports all PC games published by miHoYo/HoYoverse with many advanced features like game repair, delta patch, game settings, etc.' }],
     ['meta', { name: 'keywords', content: 'HoYoverse, miHoYo, Games, Launcher, Collapse Launcher, C#, .NET, WinUI, WinUI3, Genshin Impact, Honkai: Impact 3rd, HI3, Honkai: Star Rail, HSR, Zenless Zone Zero, ZZZ' }],
