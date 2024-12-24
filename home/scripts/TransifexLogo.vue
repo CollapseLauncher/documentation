@@ -1,6 +1,6 @@
 <template>
   <a href="https://explore.transifex.com/collapse-launcher/collapse-mainapp/" class="logo-container" target="_blank">
-    <img src="/img/logo/transifex.svg" alt="Collapse Launcher Localization at Transifex" class="logo" loading="lazy"/>
+    <img src="/img/logo/transifex.svg" title="Collapse Launcher Localization at Transifex" alt="Collapse Launcher Localization at Transifex" class="logo" loading="lazy"/>
   </a>
 </template>
 

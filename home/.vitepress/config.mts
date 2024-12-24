@@ -15,6 +15,7 @@ export default defineConfig({
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'description', content: 'An advanced launcher for HoYoverse Games. Built with C#/.NET with WinUI and open sourced. Supports all PC games published by miHoYo/HoYoverse with many advanced features like game repair, delta patch, game settings, etc.' }],
     ['meta', { name: 'keywords', content: 'HoYoverse, miHoYo, Games, Launcher, Collapse Launcher, C#, .NET, WinUI, WinUI3, Genshin Impact, Honkai: Impact 3rd, HI3, Honkai: Star Rail, HSR, Zenless Zone Zero, ZZZ' }],
@@ -73,14 +74,17 @@ export default defineConfig({
       {
         text: 'For Developers',
         items: [
+          {text: 'Building', link: 'docs/building'},
           {text: 'Contribution guidelines', link: 'docs/contrib'}
         ]
       },
       {
         text: 'Legals',
         items: [
+          {text: 'Privacy policy', link: 'docs/privacy'},
           {text: 'License', link: 'docs/license'},
-          {text: 'Third party notices', link: 'docs/third_party_notices'}
+          {text: 'Third party notices', link: 'docs/third_party_notices'},
+          {text: 'Code signing policy', link: 'docs/code-signing-policy'}
         ]
       }
     ],

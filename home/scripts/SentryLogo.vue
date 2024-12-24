@@ -1,7 +1,7 @@
 <template>
   <a href="https://sentry.io/about/" class="logo-container" target="_blank">
-    <img src="/img/logo/sentry-light.svg" alt="Sentry Logo" class="logo dark-only" loading="lazy"/>
-    <img src="/img/logo/sentry-dark.svg" alt="Sentry Logo" class="logo light-only" loading="lazy"/>
+    <img src="/img/logo/sentry-light.svg" title="Sentry logo"alt="Sentry logo" class="logo dark-only" loading="lazy"/>
+    <img src="/img/logo/sentry-dark.svg" title="Sentry logo" alt="Sentry logo" class="logo light-only" loading="lazy"/>
   </a>
 </template>
 

@@ -1,14 +1,14 @@
 <template>
   <a href="https://jb.gg/OpenSourceSupport" class="logo-container" target="_blank">
     <div class="logo-wrapper dark-only">
-      <img src="/img/logo/rider-light.svg" alt="Rider logo." loading="lazy" class="logo" />
-      <img src="/img/logo/resharper-light.svg" alt="ReSharper logo." loading="lazy" class="logo" />
-      <img src="/img/logo/qodana-light.svg" alt="Qodana logo." loading="lazy" class="logo" />
+      <img src="/img/logo/rider-light.svg" title="Rider logo" alt="Rider logo" loading="lazy" class="logo" />
+      <img src="/img/logo/resharper-light.svg" title="Resharper logo" alt="ReSharper logo" loading="lazy" class="logo" />
+      <img src="/img/logo/qodana-light.svg" title="Qodana logo" alt="Qodana logo" loading="lazy" class="logo" />
     </div>
     <div class="logo-wrapper light-only">
-      <img src="/img/logo/rider-dark.svg" alt="Rider logo." loading="lazy" class="logo" />
-      <img src="/img/logo/resharper-dark.svg" alt="ReSharper logo." loading="lazy" class="logo" />
-      <img src="/img/logo/qodana-dark.svg" alt="Qodana logo." loading="lazy" class="logo" />
+      <img src="/img/logo/rider-dark.svg" title="Rider logo" alt="Rider logo" loading="lazy" class="logo" />
+      <img src="/img/logo/resharper-dark.svg" title="Resharper logo" alt="ReSharper logo" loading="lazy" class="logo" />
+      <img src="/img/logo/qodana-dark.svg" title="Qodana logo" alt="Qodana logo" loading="lazy" class="logo" />
     </div>
   </a>
   <p class="attribution">
@@ -23,6 +23,10 @@
   justify-content: center; /* Center images horizontally */
   align-items: center; /* Align images vertically */
   gap: 10px; /* Space between images */
+}
+
+.attribution {
+ font-size: small;
 }
 
 .logo-wrapper {
