@@ -11,3 +11,7 @@
   --vp-c-bg-elv: #202127;
   --vp-c-bg-soft: #202127;
 }
+
+.title span, .main {
+  font-family: Outfit;
+}
