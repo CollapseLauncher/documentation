@@ -50,7 +50,7 @@
 }
 
 .main .text {
-  font-weight: 400;
+  font-weight: 400!important;
   padding: 16pt 0pt 4pt 0pt;
 }
 
@@ -96,6 +96,6 @@ a.VPLink.VPFeature:hover {
   padding-bottom: 8pt;
 }
 
-a:link {
-  text-decoration: none;
+.vp-doc a:link {
+  text-decoration: none!important;
 }
