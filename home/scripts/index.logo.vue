@@ -11,7 +11,7 @@
             <div style="text-align: center; margin: 10px;">
                 <img width="710px" height="auto" src="/img/banner.webp" style="margin: 10px;" />
                 <i class="art-annotation">
-                    <i>GI Nahida Background Credit: [Rafa on Pixiv](https://www.pixiv.net/en/users/3970196)</i>
+                    <i>GI Nahida Background Credit: <a href="https://www.pixiv.net/en/users/3970196"><b>Rafa on Pixiv</b></a></i>
                 </i>
             </div>
         </div>
