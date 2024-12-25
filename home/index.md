@@ -48,6 +48,11 @@ features:
     details: Up to 10X less update download size for certain region by utilizing HDiffZ folder comparison method.
     link: feature/delta-patch
     linkText: Learn more
+  - title: Code you can Trust
+    details: All published binaries goes through many verification steps and code-signed (courtesy of SignPath) before being published to users
+    linkText: Learn more
+    link: docs/development-flows
+    
 ---
 <script setup>
   import './index.css'

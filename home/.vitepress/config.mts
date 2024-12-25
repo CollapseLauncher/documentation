@@ -80,7 +80,8 @@ export default defineConfig({
         text: 'For Developers',
         items: [
           {text: 'Building', link: 'docs/building'},
-          {text: 'Contribution guidelines', link: 'docs/contrib'}
+          {text: 'Contribution guidelines', link: 'docs/contrib'},
+          {text: 'Development flows', link: 'docs/development-flows'}
         ]
       },
       {
