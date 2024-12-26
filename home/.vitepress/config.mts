@@ -85,10 +85,10 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Legals',
+        text: 'Legal',
         items: [
           {text: 'Privacy policy', link: 'docs/privacy'},
-          {text: 'License', link: 'docs/license'},
+          {text: 'Launcher license', link: 'docs/license'},
           {text: 'Third party notices', link: 'docs/third_party_notices'},
           {text: 'Code signing policy', link: 'docs/code-signing-policy'}
         ]
