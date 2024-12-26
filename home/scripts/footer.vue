@@ -1,11 +1,13 @@
 <template>
     <div>
         <p>&nbsp;</p>
-        <div class="footer">built with <span class="tooltip">💗
-            <div class="tooltip-content">
-                <img src="/img/cat.webp" alt="uu ii aa uu ii aa u">
-            </div>
-        </span></div>
+        <div class="footer">
+            Built with <span class="tooltip">💗, from the Collapse core development team
+                <div class="tooltip-content">
+                    <img src="/img/cat.webp" alt="uu ii aa uu ii aa u">
+                </div>
+            </span>
+        </div>
     </div>
 </template>
 
@@ -35,6 +37,7 @@
     transform: translateX(-50%); /* Center horizontally */
     opacity: 0;
     transition: opacity 0.3s;
+    text-align: center; /* Center the image inside the tooltip */
 }
 
 .tooltip:hover .tooltip-content {
