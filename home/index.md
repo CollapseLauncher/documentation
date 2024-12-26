@@ -10,7 +10,7 @@ head:
 hero:
   name: "Collapse Launcher"
   text: "An advanced launcher for HoYoverse Games"
-  tagline: Take the control upon your hands
+  tagline: Control the games you play
   image:
     src: /img/logo.webp
     alt: Collapse Launcher Logo
@@ -39,17 +39,17 @@ hero:
       link: /team
 features:
   - title: Multi-region Support
-    details: Manage multiple region (including cross-server region) games
-  - title: Game Repair
-    details: Repair all the game assets without even opening the game
+    details: Manage multiple region (including cross-server region) games.
+  - title: Game Installation Repair
+    details: Validate & repair all game assets without opening the game itself.
   - title: Sophon API Support
-    details: Use Sophon API on supported games for faster and smaller game downloads/update
+    details: Use the new Sophon API on supported games for a faster and smaller game download and update experience.
   - title: Delta Patch
-    details: Up to 10X less update download size for certain region by utilizing HDiffZ folder comparison method.
+    details: Benefit from an up to 10x smaller update package for certain region by utilizing HDiffZ folder comparison method.
     link: feature/delta-patch
     linkText: Learn more
   - title: Code you can Trust
-    details: All published binaries goes through many verification steps and code-signed (courtesy of SignPath) before being published to users
+    details: All published binaries go through several verification & validation steps by the core development team and are code-signed (courtesy of SignPath) before being published to users, guaranteeing a safe experience for all.
     linkText: Learn more
     link: docs/development-flows
     
@@ -62,6 +62,7 @@ features:
   import SignPathLogo from './scripts/SignPathLogo.vue';
   import SentryLogo from './scripts/SentryLogo.vue';
   import footerHi from './scripts/footer.vue';
+  import copyright from './scripts/copyright.vue';
 
   if (typeof document !== 'undefined') {
     document.title = "Collapse Launcher - Advanced Game Launcher";
@@ -107,13 +108,13 @@ Not only that, this launcher also has some advanced features for **Genshin Impac
 
 ## Special Thanks
 >
-> The teams over at Collapse are really thankful for all of our users and contributors that has been keeping this project alive and well. We are also giving our outmost gratitude for these company/organization for providing their service for us.
+> The team working on Collapse is really thankful for all of our users and contributors that have been keeping this project alive and well. We would also like to take the time to thank the following companies/organizations for providing their service for us. They help make the experience better for everyone involved.
 
-1. JetBrains for providing complete .NET suite and Qodana for our internal use
+1. JetBrains for providing their complete .NET suite and Qodana for our internal use!
 
 <div align="center"><JetBrainsLogo /></div>
 
-2. Transifex for their translation platform
+2. Transifex for their intuitive translation platform!
 
 <div align="center"><TransifexLogo /></div>
 
@@ -130,9 +131,9 @@ Not only that, this launcher also has some advanced features for **Genshin Impac
 ::: info
 Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
 :::
-* This program will only transfer user data to user configured database server. Exception data will be sent to [Sentry.io] for error tracking purposes (user are able to disable the behavior in App Settings).
-* Read our full [**Privacy Policy**](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md)
-* Also read our [**Third Party Notices**](https://github.com/CollapseLauncher/Collapse/blob/main/THIRD_PARTY_NOTICES.md) for license used by third party libraries that we use.
+* This program will only transfer user data to a user configured database server. Exception data will be sent to [Sentry.io] for error tracking purposes (users are able to disable the behavior in App Settings).
+* Read our full [**Privacy Policy**](https://github.com/CollapseLauncher/Collapse/blob/main/PRIVACY.md).
+* Read our [**Third Party Notices**](https://github.com/CollapseLauncher/Collapse/blob/main/THIRD_PARTY_NOTICES.md) for licenses used by third party libraries that we use.
 
 [SignPath Foundation]:https://signpath.org
 [SignPath.io]:https://signpath.io
@@ -156,3 +157,4 @@ Free code signing provided by [SignPath.io], certificate by [SignPath Foundation
 </p>
 
 <footerHi />
+<copyright />
