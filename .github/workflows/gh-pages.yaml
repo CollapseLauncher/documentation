@@ -62,9 +62,18 @@ jobs:
         uses: actions/deploy-pages@v4
 
   test:
+    permissions:
+      actions: read
+      contents: write
+      pull-requests: write
+      checks: write
+      security-events: write
+
     env:
       LHCI_GITHUB_APP_TOKEN:  $ {{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
