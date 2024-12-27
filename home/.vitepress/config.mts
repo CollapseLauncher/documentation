@@ -31,6 +31,9 @@ export default defineConfig({
     ['meta', { name: 'twitter:image', content: 'https://collapselauncher.com/img/banner.webp' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'author', content: 'Collapse Launcher Team' }],
+    ['link', { rel: 'preload', href: '/img/logo.webp', as: 'image'}],
+    ['link', { rel: 'preload', href: 'https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'}],
+    ['link', { rel: 'preload', href: 'https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJuktqQ4E.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'}],
   ],
   appearance: 'dark',
   themeConfig: {
