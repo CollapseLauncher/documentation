@@ -15,7 +15,6 @@ hero:
     src: /img/logo.webp
     alt: Collapse Launcher Logo
     style:
-      size: 200%
       opacity: 0.8
       position: absolute
       z-index: 0
@@ -101,8 +100,8 @@ Not only that, this launcher also has some advanced features for **Genshin Impac
 ## UI Overview
 
 <figure style="text-align: center">
-  <a href="/img/ui-overview-full-5192.webp" target="_blank">
-    <img src='/img/ui-overview-small.webp' title="UI overview" alt="UI overview" loading="lazy" style="display: block; margin: 0 auto;" width="auto">
+  <a href="/img/ui-overview.webp" target="_blank">
+    <img src='/img/ui-overview-small.webp' srcset="/img/ui-overview-small.webp 1x, /img/ui-overview.webp 2x" title="UI overview" alt="UI overview" loading="lazy" style="display: block; margin: 0 auto;" width="auto">
   </a>
 </figure>
 

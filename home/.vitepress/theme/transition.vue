@@ -42,7 +42,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <DefaultTheme.Layout />
+  <DefaultTheme.Layout>
+    <template #home-hero-image>
+      <img class="VPImage image-src" src="/img/logo.webp" srcset="/img/logo.webp 1x, /img/logo@2x.webp 2x" alt="Collapse Launcher Logo" />
+    </template>
+  </DefaultTheme.Layout>
 </template>
 
 <style>
