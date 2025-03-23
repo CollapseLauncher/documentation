@@ -43,6 +43,8 @@ features:
     details: Validate & repair all game assets without opening the game itself.
   - title: Sophon API Support
     details: Use the new Sophon API on supported games for a faster and smaller game download and update experience.
+  - title: Customization
+    details: Set custom background for each game region. Supports both still image and video formats.
   - title: Delta Patch
     details: Benefit from an up to 10x smaller update package for certain region by utilizing HDiffZ folder comparison method.
     link: feature/delta-patch
