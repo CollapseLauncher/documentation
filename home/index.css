@@ -1,8 +1,8 @@
 :root {
-  --vp-c-bg: #ffffff;
+  /* --vp-c-bg: #ffffff;
   --vp-c-bg-alt: #f6f6f7;
   --vp-c-bg-elv: #ffffff;
-  --vp-c-bg-soft: #f6f6f7;
+  --vp-c-bg-soft: #f6f6f7; */
   --vp-c-bg-none: rgba(255, 255, 255, 0);
   --vp-c-bg-head-custom: rgba(255, 255, 255, 0.75);
   --vp-s-head-show: 0px 0px 20px rgb(0 0 0 / 20%);
@@ -13,10 +13,10 @@
 }
 
 .dark {
-  --vp-c-bg: #1b1b1f;
+  /* --vp-c-bg: #1b1b1f;
   --vp-c-bg-alt: #161618;
   --vp-c-bg-elv: #202127;
-  --vp-c-bg-soft: #202127;
+  --vp-c-bg-soft: #202127; */
   --vp-c-bg-none: rgba(27, 27, 31, 0);
   --vp-c-bg-head-custom: rgba(27, 27, 31, 0.75);
   --vp-s-head-show: 0px 0px 20px rgb(0 0 0 / 50%);
