@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { vuetify } from './components/vuetify.vue'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -109,6 +110,19 @@ export default defineConfig({
   sitemap:{
     hostname: 'https://collapselauncher.com'
   },
-  lastUpdated: true
+  lastUpdated: true,
+  vite: {
+    plugins: [],
+    resolve: {
+      extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.vue', '.css']
+    },
+    optimizeDeps: {
+      exclude: ['vuetify'],
+      include: ['vue']
+    },
+    ssr: {
+      noExternal: ['vuetify']
+    }
+  }
 })
 
