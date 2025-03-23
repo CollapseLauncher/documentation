@@ -46,6 +46,8 @@ After that, find the latest release, which should be the first one and scroll do
 </figure>
 
 ::: tip
+You can change the install location by running the installer with argument ``--installto <Directory>``. Do note that you can only do this to a folder that does not need administrator privelege! Read more at <a href="https://docs.velopack.io/reference/cli/content/setup-windows"> Velopack documentation</a>.
+
 If you do not want to install the launcher, portable builds are also available! Simply download ``CL-x.xx.xxxx_Portable.7z`` and extract it to your location of choice. You can then start the launcher by running ``CollapseLauncher.exe``. Further explanations can be found <a href="#how-do-i-use-the-portable-build"> here</a>.
 :::
 
@@ -85,4 +87,6 @@ After extracting, simply run ``CollapseLauncher.exe`` as an administrator if it 
   <img src="/img/docs/portable-runthis.png" alt="Program to run on Portable build" title="Program to run on Portable build" style="display: block; margin: 0 auto;" width="auto">
 </figure>
 
+::: tip
 Please keep in mind that, should you have a version of Collapse that is older than one released in the last 6-8 months, it is recommended that you do a clean install due to the amount of changes that have been made to the launcher. While it is still possible to update Collapse, we do not recommend it due potential application instability. 
+:::

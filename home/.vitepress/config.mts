@@ -34,6 +34,7 @@ export default defineConfig({
     ['link', { rel: 'preload', href: '/img/logo.webp', as: 'image'}],
     ['link', { rel: 'preload', href: 'https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'}],
     ['link', { rel: 'preload', href: 'https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJuktqQ4E.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'}],
+    ['Cache-Control', {rel: 'Cache-Control', content: 'public, max-age=3600'}]
   ],
   appearance: 'dark',
   themeConfig: {
@@ -90,10 +91,10 @@ export default defineConfig({
       {
         text: 'Legal',
         items: [
-          {text: 'Privacy policy', link: 'docs/privacy'},
-          {text: 'Launcher license', link: 'docs/license'},
-          {text: 'Third party notices', link: 'docs/third_party_notices'},
-          {text: 'Code signing policy', link: 'docs/code-signing-policy'}
+          {text: 'Privacy policy', link: 'docs/legals/privacy'},
+          {text: 'Launcher license', link: 'docs/legals/license'},
+          {text: 'Third party notices', link: 'docs/legals/third_party_notices'},
+          {text: 'Code signing policy', link: 'docs/legals/code-signing-policy'}
         ]
       }
     ],
