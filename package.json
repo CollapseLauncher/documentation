@@ -5,8 +5,12 @@
     "home:preview": "vitepress preview home"
   },
   "dependencies": {
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "marked": "^15.0.7",
+    "marked-highlight": "^2.2.1",
     "medium-zoom": "^1.1.0",
-    "vitepress": "^1.5.0",
+    "vitepress": "^2.0.0-alpha.4",
     "vue": "^3.5.13"
   }
 }
