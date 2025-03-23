@@ -5,15 +5,6 @@ import { VBtn, VCard, VCardItem, VCardText, VIcon, VTimeline, VTimelineItem } fr
 import '@mdi/font/css/materialdesignicons.css'
 
 const vuetify = createVuetify({
-  components: {
-    VTimeline,
-    VTimelineItem,
-    VCard,
-    VCardItem,
-    VCardText,
-    VIcon,
-    VBtn
-  },
   icons: { iconfont: 'mdi' }
 })
 
