@@ -111,6 +111,12 @@ export default defineConfig({
     hostname: 'https://collapselauncher.com'
   },
   lastUpdated: true,
+  markdown: {
+    theme: {
+      light: 'catppuccin-latte',
+      dark: 'catppuccin-mocha'
+    }
+  },
   vite: {
     plugins: [],
     resolve: {

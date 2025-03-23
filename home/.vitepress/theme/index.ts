@@ -7,6 +7,7 @@ import transition from './transition.vue'
 import MarkdownLoader from '../components/md-loader.vue'
 import { vuetify } from '../components/vuetify.vue'
 import { VCard, VCardText, VCardTitle, VTimeline, VTimelineItem, VIcon, VBtn } from 'vuetify/components'
+import "@catppuccin/vitepress/theme/mocha/peach.css"
 
 export default {
   extends: DefaultTheme,

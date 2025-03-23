@@ -5,6 +5,7 @@
     "home:preview": "vitepress preview home"
   },
   "dependencies": {
+    "@catppuccin/vitepress": "^0.1.0",
     "@mdi/font": "^7.4.47",
     "highlight.js": "^11.11.1",
     "markdown-it": "^14.1.0",
