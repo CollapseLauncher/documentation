@@ -44,7 +44,6 @@ export default {
 
 <style scoped>
   .team-section {
-    font-family: Arial, sans-serif;
     padding: 2em;
     max-width: 1500px;
     margin: 0 auto;
