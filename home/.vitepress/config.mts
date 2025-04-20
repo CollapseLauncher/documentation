@@ -87,7 +87,7 @@ export default defineConfig({
         text: 'Frequently Asked Questions',
         items: [
           { text: 'QnA', link: '/docs/faq/qna' },
-          { text: 'Game Common Issues', link: '/docs/faq/game-issues' }
+          { text: 'Game common issues', link: '/docs/faq/game-issues' }
         ]
       },
       {
