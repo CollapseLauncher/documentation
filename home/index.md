@@ -34,6 +34,9 @@ hero:
       text: Installation Guide
       link: /docs/installation
     - theme: alt
+      text: FAQ
+      link: /docs/faq/qna
+    - theme: alt
       text: Meet the Team
       link: /team
 features:

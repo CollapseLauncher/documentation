@@ -3,7 +3,8 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide } from 'vue'
+import { nextTick, provide, onMounted } from 'vue'
+import mediumZoom from 'medium-zoom'
 
 const { isDark } = useData()
 
@@ -39,6 +40,14 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     }
   )
 })
+
+// Add the image zoom functionality
+onMounted(() => {
+  setTimeout(() => {
+    const backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--vp-c-bg').trim();
+    mediumZoom('.vp-doc img', { background: backgroundColor || '#fff' });
+  }, 100);
+})
 </script>
 
 <template>
@@ -72,5 +81,15 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 .VPSwitchAppearance .check {
   transform: none !important;
+}
+
+/* Image zoom styles */
+.medium-zoom-overlay {
+  z-index: 10000 !important;
+  background: var(--vp-c-bg) !important;
+}
+
+.medium-zoom-image--opened {
+  z-index: 10001 !important;
 }
 </style>

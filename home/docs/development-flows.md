@@ -42,23 +42,3 @@ If the images are too small to see, click on them to zoom.
 * App Packer script can be inspected in [our release repository](https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/blob/main/pack_signed_velopack.bat)
 * Both Portable and Installer artifacts will be uploaded to [main repository 'Releases' section](https://github.com/CollapseLauncher/Collapse/releases)
 :::
-
-<script setup>
-import { onMounted } from 'vue';
-import mediumZoom from 'medium-zoom';
-
-onMounted(() => {
-  const backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--vp-c-bg').trim();
-  mediumZoom('[data-zoomable]', { background: backgroundColor || '#fff' });
-});
-</script>
-
-<style>
-  .medium-zoom-overlay {
-    z-index: 10000 !important;
-    background: var(--vp-c-bg) !important;
-  }
-  .medium-zoom-image--opened {
-    z-index: 10001 !important;
-  }
-</style>
