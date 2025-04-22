@@ -46,9 +46,9 @@ export default defineConfig({
     logo: '/img/logo.webp',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Team', link: '/team' },
       { text: 'Docs', link: '/features' },
       { text: 'History', link: '/releasehistory' },
+      { text: 'Team', link: '/team' },
       { text: 'Grafana Dashboard', link: 'https://grafana.bagelnl.my.id/public-dashboards/4164a652b5f14d25a3cf867ebc45270d?orgId=1', target: '_blank' }
     ],
 
