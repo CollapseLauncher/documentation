@@ -17,7 +17,7 @@ You can read what feature we support and can add to the launcher by reading "Res
 
 As for trust, the decision is ultimately on you as the end-user. We have open sourced all of our user-facing codes and sign our binary for public releases ([read more](/docs/legals/code-signing-policy)). We also do a regular code checking for both code quality (using Qodana) and dependency security vulnerability (using Snyk) in which you can see them publicly via our <a href="https://github.com/CollapseLauncher/Collapse/security" target="_blank">GitHub security dashboard</a>.
 
-## Q: What is the disadvantage of using this launcher compared to the official launcher?
+## Q: What is the advantages of using this launcher compared to the official launcher?
 **A: We have added more advanced features including the ability to check and update all the game files and caches (including what you used to need to download inside the game), ability to change game settings without opening the game, and many more!**
 :::tip
 You can read our feature list for each supported game/region in our [feature matrix table](/features).
