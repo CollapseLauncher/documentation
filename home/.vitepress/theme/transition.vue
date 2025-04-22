@@ -3,13 +3,75 @@
 <script setup lang="ts">
 import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { nextTick, provide, onMounted, watch, onUnmounted } from 'vue'
+import { nextTick, provide, onMounted, watch, onUnmounted, computed } from 'vue'
 import mediumZoom from 'medium-zoom'
 
-const { isDark } = useData()
+const { isDark, frontmatter, site, page } = useData()
 const route = useRoute()
 let zoom: ReturnType<typeof mediumZoom> | null = null
 let observer: MutationObserver | null = null
+
+// Open Graph metadata handling
+const pageTitle = computed(() => {
+  return frontmatter.value.title || site.value.title;
+});
+
+const pageDescription = computed(() => {
+  return frontmatter.value.description || site.value.description;
+});
+
+const pageImage = computed(() => {
+  return frontmatter.value.image || '/img/banner.webp';
+});
+
+const pageUrl = computed(() => {
+  // Base URL from site config or fallback
+  const baseUrl = site.value.base || 'https://collapselauncher.com';
+  // Current route path
+  return baseUrl + route.path;
+});
+
+const updateMetaTags = () => {
+  if (typeof document === 'undefined') return;
+  
+  // Function to set or update meta tags
+  const setMetaTag = (name: string, content: string, property = false) => {
+    const selector = property ? 
+      `meta[property="${name}"]` : 
+      `meta[name="${name}"]`;
+    
+    let tag = document.querySelector(selector);
+    
+    if (tag) {
+      // Update existing tag
+      tag.setAttribute('content', content);
+    } else {
+      // Create new tag
+      tag = document.createElement('meta');
+      tag.setAttribute(property ? 'property' : 'name', name);
+      tag.setAttribute('content', content);
+      document.head.appendChild(tag);
+    }
+  };
+
+  // Update the document title
+  document.title = pageTitle.value;
+
+  // Set Open Graph tags
+  setMetaTag('og:title', pageTitle.value, true);
+  setMetaTag('og:description', pageDescription.value, true);
+  setMetaTag('og:image', pageImage.value.startsWith('http') ? pageImage.value : `https://collapselauncher.com${pageImage.value}`, true);
+  setMetaTag('og:url', pageUrl.value, true);
+  
+  // Set Twitter card tags
+  setMetaTag('twitter:card', 'summary_large_image');
+  setMetaTag('twitter:title', pageTitle.value);
+  setMetaTag('twitter:description', pageDescription.value);
+  setMetaTag('twitter:image', pageImage.value.startsWith('http') ? pageImage.value : `https://collapselauncher.com${pageImage.value}`);
+  
+  // Set standard meta description
+  setMetaTag('description', pageDescription.value);
+};
 
 const enableTransitions = () =>
   'startViewTransition' in document &&
@@ -109,6 +171,7 @@ onMounted(() => {
   setTimeout(() => {
     initZoom();
     setupImageObserver();
+    updateMetaTags(); // Update meta tags on initial mount
   }, 200);
   
   // Also attach event listeners for lazy-loaded images
@@ -136,6 +199,7 @@ watch(() => route.path, () => {
   setTimeout(() => {
     initZoom();
     setupImageObserver();
+    updateMetaTags(); // Update meta tags when route changes
   }, 200);
 })
 
@@ -143,6 +207,11 @@ watch(() => route.path, () => {
 watch(() => isDark.value, () => {
   setTimeout(initZoom, 200);
 })
+
+// Update meta tags when frontmatter changes
+watch(() => frontmatter.value, () => {
+  updateMetaTags();
+});
 </script>
 
 <template>

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { vuetify } from './components/vuetify.vue'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
