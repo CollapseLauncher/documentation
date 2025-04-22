@@ -42,16 +42,23 @@ hero:
 features:
   - title: Multi-region Support
     details: Manage multiple region (including cross-server region) games.
+
   - title: Game Installation Repair
     details: Validate & repair all game assets without opening the game itself.
+
   - title: Sophon API Support
     details: Use the new Sophon API on supported games for a faster and smaller game download and update experience.
+    link: docs/faq/qna.html#q-what-is-sophon-downloader-mode
+    linkText: Learn more
+
   - title: Customization
     details: Set custom background for each game region. Supports both still image and video formats.
+
   - title: Delta Patch
     details: Benefit from an up to 10x smaller update package for certain region by utilizing HDiffZ folder comparison method.
     link: feature/delta-patch
     linkText: Learn more
+    
   - title: Code you can Trust
     details: All published binaries go through several verification & validation steps by the core development team and are code-signed (courtesy of SignPath) before being published to users, guaranteeing a safe experience for all.
     linkText: Learn more
@@ -84,23 +91,15 @@ Collapse came from the **Honkai Impact** translation in Chinese and Japanese. Th
 
 ## Overview
 
-**Collapse** contains advanced features for **Honkai Impact 3rd** that not only provide you with the ability to download and launch the game, but also some additional features that the Official Launcher doesn't have, including:
+**Collapse** contains advanced features for **HoYoverse games** that not only provide you with the ability to download and launch the game, but also some additional features that the Official Launcher doesn't have, including:
 
-* Caches Download (aka "Updating Settings" in-game).
-* Game Data Repair (with less bandwidth required than the *Data Repair* feature in-game).
+* Repair the game files including Game Caches, Cutscenes, Audio Pack & persistent files outside of the game.
 * Changing Game Settings (Graphics Settings & Audio Settings) without opening the game.
-* Multi-Region Game Download Support (Allows for downloading and launching different versions of the game).
-* Steam to Global version conversion (without re-downloading the whole game).
-* Global to SEA version (or vice versa) conversion.
+* Choosing your voice-line language during the first installation, so you don't have to download it inside the game.
+* Multi-Region Game Download Support (Allows for downloading and launching different regions of the game).
 * Multi-session Download for faster Game Download/Installation.
 * Multi-thread Game Extraction for faster installation.
-* Delta-Patch Update Mechanism for smaller updates.
-* Ability to select Graphics API (DirectX 11 (FL: 10.1, 11.0 and 11.1) and DirectX 12 [May crash the game in newer stages]).
-
-Not only that, this launcher also has some advanced features for **Genshin Impact**, including but not limited to:
-
-* Choosing your voice-line language during the first installation, so you don't have to download it inside the game.
-* Repair the game files including Game Caches, Cutscenes, Audio Pack & persistent files outside of the game.
+* Delta-Patch Update Mechanism for smaller updates (on supported games, check [docs for more info](feature/delta-patch)).
 
 ## UI Overview
 

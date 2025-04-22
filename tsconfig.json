@@ -13,6 +13,6 @@
       "noEmit": true,
       "lib": ["esnext", "dom"]
     },
-    "include": ["home/**/*.ts", "home/**/*.d.ts", "home/**/*.tsx", "home/**/*.vue"],
+    "include": ["./**/*.ts", "./**/*.d.ts", "./**/*.tsx", "./**/*.vue"],
     "exclude": ["node_modules"]
-  }
+}
