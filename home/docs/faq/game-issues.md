@@ -60,4 +60,6 @@ Example step for `Audio_Default.pcktemp` file
     2. Put it inside the Version.txt file as the Audio_Default.pck MD5 (replace the current value)
     3. Restart the game, then do in-game check, twice.
     4. In this part you might went beyond the lift and actually went into the game at 1st step, but this might give you missing audio on certain scenes, so close the game and do a 2nd try on the in-game check.
-
+::: warning
+This method has the inherent risk of corrupting the files further if the input file is actually corrupted. Do not do this if you are unsure and just do step 1.
+:::
