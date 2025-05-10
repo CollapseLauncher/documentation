@@ -74,6 +74,7 @@ features:
   import SentryLogo from './scripts/SentryLogo.vue';
   import footerHi from './scripts/footer.vue';
   import copyright from './scripts/copyright.vue';
+  import DigitalOceanLogo from './scripts/DigitalOceanLogo.vue';
 
   if (typeof document !== 'undefined') {
     document.title = "Collapse Launcher - Advanced Game Launcher";
@@ -128,6 +129,10 @@ Collapse came from the **Honkai Impact** translation in Chinese and Japanese. Th
 4. Sentry for providing us with error collection platform!
 
 <div align="center"><SentryLogo /></div>
+
+5. DigitalOcean for providing us their cloud platform credits!
+
+<div align="center"><DigitalOceanLogo /></div>
 
 ## Code Signing Policy
 
