@@ -21,7 +21,7 @@ To use a command line argument, you can either:
 
 <h1> What command line arguments are available to use? </h1>
 
-## tray
+## `tray`
 Starts Collapse hidden in the system tray.
 
 ### Examples
@@ -32,7 +32,7 @@ CollapseLauncher.exe tray
 collapse://tray
 ```
 
-## open
+## `open`
 Loads a specific game/region when launching Collapse.
 
 ### Options
