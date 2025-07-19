@@ -48,6 +48,7 @@ export default defineConfig({
       { text: 'Docs', link: '/features' },
       { text: 'History', link: '/releasehistory' },
       { text: 'Team', link: '/team' },
+      { text: 'Blog', link: 'https://blog.collapselauncher.com/', target: '_blank' },
       { text: 'Status', link: 'https://status.collapselauncher.com', target: '_blank' },
       { text: 'Grafana Dashboard', link: 'https://grafana.bagelnl.my.id/public-dashboards/4164a652b5f14d25a3cf867ebc45270d?orgId=1', target: '_blank' }
     ],
