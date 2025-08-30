@@ -9,11 +9,22 @@ import { vuetify } from '../components/vuetify.vue'
 import { VCard, VCardText, VCardTitle, VTimeline, VTimelineItem, VIcon, VBtn } from 'vuetify/components'
 import "@catppuccin/vitepress/theme/mocha/peach.css"
 
+// Import Sentry
+import * as Sentry from "@sentry/vue"
 
 export default {
   extends: DefaultTheme,
   Layout: transition,
   enhanceApp({ app, router, siteData }) {
+    if (typeof window !== 'undefined') {  // Only run in browser environment
+      Sentry.init({
+        app,
+        dsn: "https://d0d8217a5201c48d709cd5874c50760a@o4508297437839360.ingest.de.sentry.io/4509628762095696",
+        sendDefaultPii: false,
+        integrations: [Sentry.browserTracingIntegration],
+        tracesSampleRate: 0.5
+      });
+    }
     app.component('MarkdownLoader', MarkdownLoader)
 
     app.use(vuetify)

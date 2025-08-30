@@ -75,6 +75,7 @@ features:
   import footerHi from './scripts/footer.vue';
   import copyright from './scripts/copyright.vue';
   import DigitalOceanLogo from './scripts/DigitalOceanLogo.vue';
+  import DatadogLogo from './scripts/DatadogLogo.vue';
 
   if (typeof document !== 'undefined') {
     document.title = "Collapse Launcher - Advanced Game Launcher";
@@ -133,6 +134,9 @@ Collapse came from the **Honkai Impact** translation in Chinese and Japanese. Th
 5. DigitalOcean for providing us their cloud platform credits!
 
 <div align="center"><DigitalOceanLogo /></div>
+
+6. Datadog for providing us their data observability platform!
+<div align="center"><DatadogLogo /></div>
 
 ## Code Signing Policy
 
