@@ -27,6 +27,9 @@ hero:
       text: Download Beta Release
       link: /pre-release
       target: "_blank"
+    - theme: brand
+      text: Plugin Catalog 🆕
+      link: /plugin/catalog
     - theme: alt
       text: Feature Docs
       link: /features

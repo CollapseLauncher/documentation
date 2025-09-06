@@ -77,6 +77,11 @@ export default defineConfig({
           { text: 'Command line arguments', link: '/feature/cli-args' },
           { text: 'Data synchronization', link: '/feature/database' },
         ]
+      },{
+        text: 'Plugins',
+        items: [
+          { text: 'Catalog', link: '/plugin/catalog' },
+        ]
       },
       {
         text: 'Advanced Features',
