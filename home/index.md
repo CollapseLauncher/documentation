@@ -65,7 +65,7 @@ features:
   - title: Code you can Trust
     details: All published binaries go through several verification & validation steps by the core development team and are code-signed (courtesy of SignPath) before being published to users, guaranteeing a safe experience for all.
     linkText: Learn more
-    link: docs/development-flows
+    link: docs/development-workflows
     
 ---
 <script setup>

@@ -92,16 +92,18 @@ export default defineConfig({
       {
         text: 'Frequently Asked Questions',
         items: [
-          { text: 'QnA', link: '/docs/faq/qna' },
-          { text: 'Game common issues', link: '/docs/faq/game-issues' }
+          { text: 'Q & A', link: '/docs/faq/qna' },
+          { text: 'Common Game Issues', link: '/docs/faq/game-issues' }
         ]
       },
       {
         text: 'For Developers',
         items: [
-          {text: 'Building', link: 'docs/building'},
-          {text: 'Contribution guidelines', link: 'docs/contrib'},
-          {text: 'Development flows', link: 'docs/development-flows'}
+          {text: 'Building Collapse', link: 'docs/building'},
+          {text: 'Contribution Guidelines', link: 'docs/contrib'},
+          {text: 'Development Workflows', link: 'docs/development-workflows'},
+          {text: 'Help Localize Collapse', link: 'https://explore.transifex.com/collapse-launcher/collapse-mainapp/'},
+          {text: 'Disclosing Security Vulnerabilities', link: 'https://github.com/CollapseLauncher/Collapse/blob/main/SECURITY.md'}, // explicitly use GitHub for latest version
         ]
       },
       {

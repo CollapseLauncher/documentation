@@ -1,12 +1,14 @@
 ---
-title: Development Flows | Collapse Launcher
+title: Development Workflows | Collapse Launcher
 ---
 
-# Development Flows
-Any software development needs a certain flows on actions to do on each commits and releases. This section will explain how Collapse project handle commits and release publishing flows.
+# Development Workflows
+Each big project has development workflows, helping developers ship code in a timely and efficient manner.
+
+This section will explain how Collapse project handle commits and release publishing flows.
 
 ::: tip
-If the images are too small to see, click on them to zoom.
+If the images are too small to see, click on them to zoom in!
 :::
 
 ## Code Submission Flow
@@ -21,8 +23,8 @@ If the images are too small to see, click on them to zoom.
 * Code quality scan (Qodana) on main branch runs every Sunday, Wednesday, and Friday
 * Qodana scan runs on every Feature/Fix Pull Requests with comment alerts
 * All submitted commits are scanned for vulnerability (Snyk) and Licence Compliance (FOSSA)
-* Main branch is locked for "Force Push"
-* Stable branch might get force pushed on what we called "Stable sync" where Stable branch gets matched with Main branch until the next major/minor Preview release
+* `main` branch is locked for "Force Push"
+* Stable branch may get force pushed during what we called "Stable Sync" where the Stable branch gets caught-up with the `main` branch until the next major/minor Preview release
 :::
 
 ## Release Publication Flow
@@ -38,7 +40,7 @@ If the images are too small to see, click on them to zoom.
     1. GitHub (Main)
     2. Cloudflare (Cloudfare R2, Southeast Asia region)
     3. GitLab
-    4. CODING (Mainland China)
+    4. CNB (Mainland China)
 * App Packer script can be inspected in [our release repository](https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/blob/main/pack_signed_velopack.bat)
 * Both Portable and Installer artifacts will be uploaded to [main repository 'Releases' section](https://github.com/CollapseLauncher/Collapse/releases)
 :::
