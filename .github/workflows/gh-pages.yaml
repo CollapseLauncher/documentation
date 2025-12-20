@@ -33,9 +33,9 @@ jobs:
       #     version: 9 # Not needed if you've set "packageManager" in package.json
       # - uses: oven-sh/setup-bun@v1 # Uncomment this if you're using Bun
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 23
+          node-version: 24
           cache: npm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -44,7 +44,7 @@ jobs:
       - name: Build with VitePress
         run: npm run home:build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: home/.vitepress/dist
 
@@ -60,6 +60,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Purge Cloudflare cache
+        run: |
+            curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_PURGE_CACHE_ZONEID }}/purge_cache" \
+                -H "Authorization: Bearer ${{ secrets.CF_PURGE_CACHE_TOKEN }}" \
+                -H "Content-Type: application/json" \
+                --data "{\"hosts\": [\"www.collapselauncher.com\", \"collapselauncher.com\"]}"
 
   test:
     permissions:
