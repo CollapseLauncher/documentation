@@ -1,6 +1,9 @@
 ---
 title: Plugin Catalog | Collapse Launcher
 ---
+<script setup>
+    import CatalogTable from '../scripts/pluginCatalogTable.vue'
+</script>
 
 <style>
     .VPDoc.has-aside .content-container {
@@ -42,11 +45,7 @@ title: Plugin Catalog | Collapse Launcher
 
 # Plugin Catalog
 
-| Game Titles | Plugin Codename | Maintainer | Status / Version | Plugin API Standard | Supported Launcher | Automatic Update Support? | Supported Game Regions/Servers | Download Link    |
-|:----------- | --------------- | ---------- | ---------------- | ------------------- | ------------------ | ------------------------- | ------------------------------ | ----------------------- |
-| [**Heaven Burns Red**](https://heavenburnsred.yo-star.com/) | Seraphim | [**neon-nyan**](https://github.com/neon-nyan)<br/>(Collapse Project) | Public Test / **v0.8.3**<br/>Sept 29th, 2025 | **v0.1-update2** | **Collapse Launcher** - v1.83.10 Luna or Above | ✅ | Global (Yostar) | [**Mirror 1**](https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/refs/heads/main/inhouse-plugin/heavenburnsred/build/Seraphim_0.8.3.0_API-0.1.2.0_20250929.zip)<br/>[**Mirror 2**](https://r2.bagelnl.my.id/cl-cdn/inhouse-plugin/heavenburnsred/build/Seraphim_0.8.3.0_API-0.1.2.0_20250929.zip)<br/>[**Mirror 3**](https://cdn.collapselauncher.com/cl-cdn/inhouse-plugin/heavenburnsred/build/Seraphim_0.8.3.0_API-0.1.2.0_20250929.zip) |
-| [**Wuthering Waves**](https://wutheringwaves.kurogames.com/) | N/A | [**Cry0**](https://github.com/Cryotechnic)<br/>(Collapse Project) | Public Test / **v0.4.3**<br/>Dec 8th, 2025 | **v0.1-update3** | **Collapse Launcher** - v1.83.13 Luna or above | ✅ | Global | [**Mirror 1**](https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/refs/heads/main/inhouse-plugin/wuwa/build/Waves_0.4.3.0_API-0.1.3.0_20251208.zip)<br/>[**Mirror 2**](https://r2.bagelnl.my.id/cl-cdn/inhouse-plugin/wuwa/build/Waves_0.4.3.0_API-0.1.3.0_20251208.zip)<br/>[**Mirror 3**](https://cdn.collapselauncher.com/cl-cdn/inhouse-plugin/wuwa/build/Waves_0.4.3.0_API-0.1.3.0_20251208.zip) |
-| [**Duet Night Abyss**](https://duetnightabyss.dna-panstudio.com/) | N/A | [**gablm**](https://github.com/gablm)<br/>(Collapse Project) | Public Test / **v0.5.1**<br/>Dec 19th, 2025 | **v0.1-update3** | **Collapse Launcher** - v1.83.13 Luna or above | ✅ | Global | [**Mirror 1**](https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/refs/heads/main/inhouse-plugin/duetnightabyss/build/DNAbyss_0.5.1.0_API-0.1.3.0_20251219.zip)<br/>[**Mirror 2**](https://r2.bagelnl.my.id/cl-cdn/inhouse-plugin/duetnightabyss/build/DNAbyss_0.5.1.0_API-0.1.3.0_20251219.zip)<br/>[**Mirror 3**](https://cdn.collapselauncher.com/cl-cdn/inhouse-plugin/duetnightabyss/build/DNAbyss_0.5.1.0_API-0.1.3.0_20251219.zip)  |
+<CatalogTable />
 
 :::info
 Plugins currently under **Public Beta Test** might receive changes that cause incompatibilities with previous versions.
