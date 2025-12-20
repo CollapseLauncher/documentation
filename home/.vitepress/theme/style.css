@@ -160,6 +160,17 @@ body {
   font-family: var(--vp-font-family-base);
 }
 
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vp-doc table {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* :root {
   --vp-layout-max-width: 1920px;
 }
