@@ -51,7 +51,11 @@ import plugins from '../.data/plugins.json'
           {{ p.autoUpdate ? '✅' : '❌' }}
         </td>
 
-        <td>{{ p.regions }}</td>
+        <td>
+          <div v-for="r in p.regions" :key="r">
+            {{ r }}
+          </div>
+        </td>
 
         <td>
           <div v-for="d in p.downloads" :key="d.url">
