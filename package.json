@@ -7,7 +7,7 @@
   "dependencies": {
     "@catppuccin/vitepress": "^0.1.2",
     "@mdi/font": "^7.4.47",
-    "@sentry/vue": "^10.32.1",
+    "@sentry/vue": "^10.33.0",
     "highlight.js": "^11.11.1",
     "markdown-it": "^14.1.0",
     "marked": "^17.0.1",
