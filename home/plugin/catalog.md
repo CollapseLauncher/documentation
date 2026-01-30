@@ -70,3 +70,11 @@ Plugins currently under **Public Beta Test** might receive changes that cause in
 > - **Developer:** Pan Studio
 > - **Published by:**
 >   - Global (including Mainland China): **Hero Games**
+
+### [Arknights Endfield](https://endfield.gryphline.com/en-us)
+> - **Engine:** Unity 2021.x (2021.3.34f5)
+> - **Developer:** Hypergryph, Mountain Contour
+> - **Published by:**
+>   - Global: **Gryphline**
+>   - SEA: **Ariel**
+>   - Mainland China: **Hypergryph**
