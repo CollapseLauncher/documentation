@@ -112,5 +112,35 @@
         "url": "https://cdn.collapselauncher.com/cl-cdn/inhouse-plugin/duetnightabyss/build/DNAbyss_0.6.1.0_API-0.1.3.0_20251226.zip"
       }
     ]
+  },
+  {
+    "game": {
+      "name": "Arknights Endfield",
+      "url": "https://endfield.gryphline.com/en-us"
+    },
+    "codename": "AKE",
+    "maintainer": {
+      "name": "misaka10843",
+      "url": "https://github.com/misaka10843",
+      "note": "External Developer"
+    },
+    "status": {
+      "label": "Public Test",
+      "version": "v0.1.1",
+      "date": "Jan 30th, 2026"
+    },
+    "api": "v0.1-update3",
+    "launcher": "Collapse Launcher - v1.83.13 Luna or above",
+    "autoUpdate": true,
+    "regions": [
+      "Global",
+      "Mainland China",
+    ],
+    "downloads": [
+      {
+        "label": "Mirror 1",
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Endfield/releases/download/v0.1.1/Endfield_0.1.0.0_API-0.1.3.0_20260130.zip"
+      }
+    ]
   }
 ]
