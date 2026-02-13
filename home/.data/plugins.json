@@ -126,20 +126,25 @@
     },
     "status": {
       "label": "Public Test",
-      "version": "v0.1.1",
-      "date": "Jan 30th, 2026"
+      "version": "v0.1.3",
+      "date": "Feb 13th, 2026"
     },
     "api": "v0.1-update3",
     "launcher": "Collapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
       "Global",
-      "Mainland China"
+      "Mainland China",
+      "Bilibili"
     ],
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Endfield/releases/download/v0.1.1/Endfield_0.1.0.0_API-0.1.3.0_20260130.zip"
+        "url": "https://github.com/misaka10843/CollapsePlugin-ReleaseRepo/raw/refs/heads/main/Endfield/build/Endfield_0.1.3.0_API-0.1.3.0_20260213.zip"
+      },
+      {
+        "label": "Mirror 2",
+        "url": "https://fastly.jsdelivr.net/gh/misaka10843/CollapsePlugin-ReleaseRepo@main/Endfield/build/Endfield_0.1.3.0_API-0.1.3.0_20260213.zip"
       }
     ]
   }
