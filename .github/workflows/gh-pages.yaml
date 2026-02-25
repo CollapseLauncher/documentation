@@ -43,6 +43,25 @@ jobs:
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run home:build
+      - name: Convert sitemap to index
+        run: |
+          cd home/.vitepress/dist
+
+          # rename generated sitemap
+          mv sitemap.xml sitemap-main.xml
+
+          # create sitemap index
+          cat > sitemap.xml << 'EOF'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+            <sitemap>
+              <loc>https://collapselauncher.com/sitemap-main.xml</loc>
+            </sitemap>
+            <sitemap>
+              <loc>https://blog.collapselauncher.com/sitemap.xml</loc>
+            </sitemap>
+          </sitemapindex>
+          EOF
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
