@@ -60,6 +60,9 @@ jobs:
             <sitemap>
               <loc>https://blog.collapselauncher.com/sitemap.xml</loc>
             </sitemap>
+            <sitemap>
+              <loc>https://plugin-docs.collapselauncher.com/sitemap.xml</loc>
+            </sitemap>
           </sitemapindex>
           EOF
       - name: Upload artifact
