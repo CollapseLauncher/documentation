@@ -78,3 +78,9 @@ Plugins currently under **Public Beta Test** might receive changes that cause in
 >   - Global: **Gryphline**
 >   - SEA: **Ariel**
 >   - Mainland China: **Hypergryph**
+
+### [Arknights](https://www.arknights.global/)
+> - **Engine:** Unity 2021.x (2021.3.39f1)
+> - **Developer:** Hypergryph, Mountain Contour
+> - **Published by:**
+>   - Mainland China: **Hypergryph**
