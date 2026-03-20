@@ -49,10 +49,10 @@
     },
     "status": {
       "label": "Public Test",
-      "version": "v0.6.1",
-      "date": "March 5th, 2026"
+      "version": "v0.6.2",
+      "date": "March 20th, 2026"
     },
-    "api": "v0.1-update4",
+    "api": "v0.1-update5",
     "launcher": "Collapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
@@ -61,15 +61,15 @@
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/refs/heads/main/inhouse-plugin/wuwa/build/Waves_0.6.1.0_API-0.1.4.0_20260306.zip"
+        "url": "https://github.com/CollapseLauncher/CollapseLauncher-ReleaseRepo/raw/refs/heads/main/inhouse-plugin/wuwa/build/Waves_0.6.2.0_API-0.1.5.0_20260320.zip"
       },
       {
         "label": "Mirror 2",
-        "url": "https://r2.bagelnl.my.id/cl-cdn/inhouse-plugin/wuwa/build/Waves_0.6.1.0_API-0.1.4.0_20260306.zip"
+        "url": "https://r2.bagelnl.my.id/cl-cdn/inhouse-plugin/wuwa/build/Waves_0.6.2.0_API-0.1.5.0_20260320.zip"
       },
       {
         "label": "Mirror 3",
-        "url": "https://cdn.collapselauncher.com/cl-cdn/inhouse-plugin/wuwa/build/Waves_0.6.1.0_API-0.1.4.0_20260306.zip"
+        "url": "https://cdn.collapselauncher.com/cl-cdn/inhouse-plugin/wuwa/build/Waves_0.6.2.0_API-0.1.5.0_20260320.zip"
       }
     ]
   },
