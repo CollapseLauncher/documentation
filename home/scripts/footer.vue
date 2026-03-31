@@ -2,7 +2,7 @@
     <div>
         <p>&nbsp;</p>
         <div class="footer">
-            Built with <span class="tooltip">💗, from the Collapse core development team
+            Built with <span class="tooltip">💗, from the Coolapse core development team
                 <div class="tooltip-content">
                     <img src="/img/cat.webp" alt="uu ii aa uu ii aa u" loading="lazy">
                 </div>

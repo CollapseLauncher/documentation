@@ -1,5 +1,5 @@
 ---
-title: Command Line Arguments | Collapse Launcher
+title: Command Line Arguments | Coolapse Launcher
 ---
 
 <script setup lang="ts">
@@ -8,13 +8,13 @@ import GameRegionTable from '../scripts/cli.openTable.vue';
 
 # What is a command line argument?
 
-Command line arguments are special instructions that can be passed to Collapse when launching it. They can temporarily change Collapse's behaviour at start-up. Only one argument can be used per launch.
+Command line arguments are special instructions that can be passed to Coolapse when launching it. They can temporarily change Coolapse's behaviour at start-up. Only one argument can be used per launch.
 
 To use a command line argument, you can either:
 - Use a **terminal** and add it after the executable.
   <br> (e.g., `CollapseLauncher.exe tray`) 
 
-- Use Windows' **Run window** or a **web browser** to call Collapse's URL Protocol.
+- Use Windows' **Run window** or a **web browser** to call Coolapse's URL Protocol.
   <br> (e.g., `collapse://tray`)
 ---
 &nbsp;
@@ -22,7 +22,7 @@ To use a command line argument, you can either:
 <h1> What command line arguments are available to use? </h1>
 
 ## `tray`
-Starts Collapse hidden in the system tray.
+Starts Coolapse hidden in the system tray.
 
 ### Examples
 ```
@@ -33,7 +33,7 @@ collapse://tray
 ```
 
 ## `open`
-Loads a specific game/region when launching Collapse.
+Loads a specific game/region when launching Coolapse.
 
 ### Options
 ### REQUIRED
@@ -47,7 +47,7 @@ Loads a specific game/region when launching Collapse.
   <br> If not specified or invalid, the last opened region for the game will be opened.
 
 - `-p` or `--play`
-  <br> Launches the game automatically after Collapse opens.
+  <br> Launches the game automatically after Coolapse opens.
 
 ### Notes
 - If the game/region name has spaces, the name must be enclosed by quotes.

@@ -1,5 +1,5 @@
 ---
-title: Code Signing Policy | Collapse Launcher
+title: Code Signing Policy | Coolapse Launcher
 ---
 
 

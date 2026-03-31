@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions | Collapse Launcher
+title: Frequently Asked Questions | Coolapse Launcher
 ---
 
 # Frequently Asked Questions
@@ -11,7 +11,7 @@ As for the long answer:
 
 Our team always tries its best to mimic what the official launcher and the games do to their files and configurations (except any feature that is labeled as "Experimental"). We also do not do any game hooking, direct memory read/write operations to the game process, and any assets/game files modification out of the scope for what the game needs to run.
 
-Our team has not yet received reports of accounts being banned for strictly using Collapse as their preferred launcher of choice.
+Our team has not yet received reports of accounts being banned for strictly using Coolapse as their preferred launcher of choice.
 
 ::: tip
 You can read what feature we support and can add to the launcher by reading the "Restrictions for New Feature(s)" section in our [Contribution Guideline](/docs/contrib.html).
@@ -25,17 +25,17 @@ As for trust, the decision rests ultimately on you as the end-user. We have open
 You can read our feature list for each supported game/region in our [feature matrix table](/features).
 :::
 
-## Q: Can I use Collapse alongside the official launcher? Can I migrate all my downloaded games to Collapse?
+## Q: Can I use Coolapse alongside the official launcher? Can I migrate all my downloaded games to Coolapse?
 **A: Absolutely!**
-You can use Collapse to manage all the games installed from the official launcher. Collapse should automatically detect the game installation when you click "Install/Locate game", but in the event that it doesn't, you can locate the folder containing the game executable yourself.
+You can use Coolapse to manage all the games installed from the official launcher. Coolapse should automatically detect the game installation when you click "Install/Locate game", but in the event that it doesn't, you can locate the folder containing the game executable yourself.
 
 ## Q: What if an update breaks launcher compatibility? How do I get support if something goes wrong?
 **A: Update the launcher!**
 We are generally pretty fast at identifying problems and will try our best on retaining compatibility with, at the very least, basic launcher functionality (game download and launch). In the event that a complete breakdown happens, we will usually post announcements and updates to our [Discord server](https://discord.gg/vJd2exaS7j) and to our [status page](https://status.collapselauncher.com). or to [GitHub issues page](https://github.com/CollapseLauncher/Collapse/issues). You can also ask us in our [GitHub discussion page](https://github.com/orgs/CollapseLauncher/discussions).
 
-As we are not full time developers working exclusively on Collapse, we may need extra time to respond due to our real life duties (which come always first).Please be patient and give us time to respond to you.
+As we are not full time developers working exclusively on Coolapse, we may need extra time to respond due to our real life duties (which come always first).Please be patient and give us time to respond to you.
 
-## Q: What game version(s) do Collapse support?
+## Q: What game version(s) do Coolapse support?
 **A: Only latest version for the respective game/region.**
 As all HoYoverse game are <a href="https://en.wikipedia.org/wiki/Live_service_game" target="_blank">live service games</a>, changes happens all the time making it hard and/or impossible for supporting old game versions. You also can't play the old versions of games anyways, because the official game servers are only available for latest version.
 

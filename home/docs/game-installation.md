@@ -1,5 +1,5 @@
 ---
-title: Installing Games | Collapse Launcher
+title: Installing Games | Coolapse Launcher
 ---
 
 # Installing Games 
@@ -31,7 +31,7 @@ There are two options for you to choose from:
 </figure>
 
 * **Use default directory**
-> This option will install the game in the default "App Folder" that you've chosen while setting up Collapse for the first time. If you do not remember where that is, you can go to Collapse's **App Settings** and click on the "Open App Data Folder" button on the right side panel. 
+> This option will install the game in the default "App Folder" that you've chosen while setting up Coolapse for the first time. If you do not remember where that is, you can go to Coolapse's **App Settings** and click on the "Open App Data Folder" button on the right side panel. 
 ::: tip
 You can always move the game installation later (after the installation has completed) by opening the Quick Settings (bottom right) -> Move Game Installation.
 :::
@@ -39,8 +39,8 @@ You can always move the game installation later (after the installation has comp
 * **Locate directory**
 > This option will allow you to choose the location in which you would like your game to be installed.
 ::: tip
-<b><u>If you already installed the game and you want to import it into to Collapse, press this option</u></b>.<br/> <br/>
-Direct Collapse to the folder where you installed the game initially, indicated by the presence of the game's executable file. For example:
+<b><u>If you already installed the game and you want to import it into to Coolapse, press this option</u></b>.<br/> <br/>
+Direct Coolapse to the folder where you installed the game initially, indicated by the presence of the game's executable file. For example:
 - **Genshin Impact (Global)** --> `GenshinImpact.exe`
 - **Genshin Impact (Mainland China/Bilibili)** --> `YuanShen.exe`
 - **Honkai Impact 3rd** --> `BH3.exe`
@@ -56,7 +56,7 @@ It is also possible that the launcher will outright fail to install the game in 
 
 <b>This feature is currently only available to Genshin Impact, Honkai: Star Rail & Zenless Zone Zero only</b>.
 
-You may be asked to choose which voice-over language you want to install. This will reduce the time for installation in-game by downloading the audio assets in Collapse instead of in-game.
+You may be asked to choose which voice-over language you want to install. This will reduce the time for installation in-game by downloading the audio assets in Coolapse instead of in-game.
 
 There are currently 4 languages available for you to choose:
 * Chinese (Simplified)
@@ -65,7 +65,7 @@ There are currently 4 languages available for you to choose:
 * Korean
 
 ::: info
-Japanese language will be chosen by default. There may be more languages added by miHoYo/Cognosphere in the future. Collapse currently only supports the above list for voice-over pack installation. Different games may support different languages. This list is subject to change without notice.
+Japanese language will be chosen by default. There may be more languages added by miHoYo/Cognosphere in the future. Coolapse currently only supports the above list for voice-over pack installation. Different games may support different languages. This list is subject to change without notice.
 :::
 
 <figure style="text-align: center;">
@@ -76,23 +76,23 @@ Japanese language will be chosen by default. There may be more languages added b
 Once started, the installation will download the necessary files for your selected game. 
 
 ::: tip
-Starting from Collapse 1.70.5, background download is supported, meaning that you can not only download multiple games, but you also no longer have to stay on the game's launcher page for the download function to work.
+Starting from Coolapse 1.70.5, background download is supported, meaning that you can not only download multiple games, but you also no longer have to stay on the game's launcher page for the download function to work.
 :::
 
-After the download is completed, Collapse goes through a verification and patching phase. This part of the installation can vary in length depending on your system configuration and network connection availability. Please allow sufficient time for the installation to finish.
+After the download is completed, Coolapse goes through a verification and patching phase. This part of the installation can vary in length depending on your system configuration and network connection availability. Please allow sufficient time for the installation to finish.
 
-Collapse also supports download pausing & resuming. This means that you may interrupt the download at any time *gracefully* by clicking on the ``Pause/Cancel`` button when an installation is in progress. Failure to do so could result in data corruption.
+Coolapse also supports download pausing & resuming. This means that you may interrupt the download at any time *gracefully* by clicking on the ``Pause/Cancel`` button when an installation is in progress. Failure to do so could result in data corruption.
 
 ::: warning
-Please do not close Collapse while the verification and patching steps are in progress. Doing so may lead to the corruption of your selected game(s) and force you to perform a partial or full reinstall.
+Please do not close Coolapse while the verification and patching steps are in progress. Doing so may lead to the corruption of your selected game(s) and force you to perform a partial or full reinstall.
 :::
 
 ## Other problem factor while installing
 ### Insufficient Storage
-While preparing for installation, Collapse will check if you have sufficient disk space on the drive you have decided to install the game in, to ensure that the full game package can be installed. The error below will display if your disk space is insufficient. Should that happen, please make sure that you have sufficient storage before proceeding with the installation. **Collapse will not install your game until you have sufficient storage available**. <u>**Collapse will also not update your game until you have sufficient storage available**</u>.
+While preparing for installation, Coolapse will check if you have sufficient disk space on the drive you have decided to install the game in, to ensure that the full game package can be installed. The error below will display if your disk space is insufficient. Should that happen, please make sure that you have sufficient storage before proceeding with the installation. **Coolapse will not install your game until you have sufficient storage available**. <u>**Coolapse will also not update your game until you have sufficient storage available**</u>.
 
 ::: info
-You may find that the actual amount of storage the game takes after installation is smaller than what Collapse specified. This is because, in some games (which do not use the new Sophon API) Collapse needs extra space to decompress the game installation package before it is able to successfully install the game. Rest assured, the installation package is removed after the game has been installed to free up the maximum amount of storage possible.
+You may find that the actual amount of storage the game takes after installation is smaller than what Coolapse specified. This is because, in some games (which do not use the new Sophon API) Coolapse needs extra space to decompress the game installation package before it is able to successfully install the game. Rest assured, the installation package is removed after the game has been installed to free up the maximum amount of storage possible.
 :::
 
 <figure style="text-align: center;">

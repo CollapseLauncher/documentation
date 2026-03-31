@@ -217,7 +217,7 @@ watch(() => frontmatter.value, () => {
 <template>
   <DefaultTheme.Layout>
     <template #home-hero-image>
-      <img class="VPImage image-src" src="/img/logo.webp" srcset="/img/logo.webp 1x, /img/logo@2x.webp 2x" alt="Collapse Launcher Logo" />
+      <img class="VPImage image-src" src="/img/logo.webp" srcset="/img/logo.webp 1x, /img/logo@2x.webp 2x" alt="Coolapse Launcher Logo" />
     </template>
   </DefaultTheme.Layout>
 </template>

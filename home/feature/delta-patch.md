@@ -1,13 +1,13 @@
 ---
-title: Delta Patch | Collapse Launcher
+title: Delta Patch | Coolapse Launcher
 ---
 <script setup>
   import RegionTable from '../scripts/delta.regionTable.vue';  
 </script>
 # What's Delta Patch Update Feature?
-The Delta Patch Update feature is an update function that Collapse uses which doesn't require you to re-download the entire game (with the benefit of having a reduced download size). This feature will only update the differences between files (hence the "Delta" name) from previous to the next version and produces the new patched files which will be used for the updating the upcoming version.
+The Delta Patch Update feature is an update function that Coolapse uses which doesn't require you to re-download the entire game (with the benefit of having a reduced download size). This feature will only update the differences between files (hence the "Delta" name) from previous to the next version and produces the new patched files which will be used for the updating the upcoming version.
 
-This feature was first introduced to Collapse Launcher in [**1.0.22.3-RC1-Preview**](https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.3-rc1-pre) and  ***does not exist*** the default launcher.
+This feature was first introduced to Coolapse Launcher in [**1.0.22.3-RC1-Preview**](https://github.com/neon-nyan/CollapseLauncher/releases/tag/CL-v1.0.22.3-rc1-pre) and  ***does not exist*** the default launcher.
 
 This feature is only available for **Honkai Impact 3rd** and **Honkai: Star Rail** at the moment (other game releases might be considered to be available in the future).
 Therefore, this delta-patch will only be available for certain regions for each games, including:
@@ -22,7 +22,7 @@ Therefore, this delta-patch will only be available for certain regions for each 
 :::
 
 ## 1. Download the ``.patch`` (Delta-patch) file
-Collapse no longer downloads the *Delta-patch* file automatically due to their size. You have to download the "**Delta-patch**" file to be used for the update.
+Coolapse no longer downloads the *Delta-patch* file automatically due to their size. You have to download the "**Delta-patch**" file to be used for the update.
 For more up-to-date links, please [join our Discord server!](https://discord.gg/vJd2exaS7j). Once you have joined to the Discord Server, make sure to check the specific #delta-patch channel in the "Git Feeds" category. Then find the link to download the delta-patch file.
 
 <figure style="text-align: center;">
@@ -54,16 +54,16 @@ The following region codes are used to identify regions which are compatible wit
 Once the download has finished, move the ``.patch`` file to the game folder. 
 
 ::: tip
-To find out where your game is installed, open Collapse, select the correct game & region, and click on the ``Game Settings`` button and find the ``Open Game Folder`` button to open the game folder.
+To find out where your game is installed, open Coolapse, select the correct game & region, and click on the ``Game Settings`` button and find the ``Open Game Folder`` button to open the game folder.
 :::
 
 ### 3. Start the Update
-Once you have successfully moved the file to your game directory, Collapse will automatically detect click on the Delta-patch file. If it does not, please restart the launcher before attempting the update operation.
+Once you have successfully moved the file to your game directory, Coolapse will automatically detect click on the Delta-patch file. If it does not, please restart the launcher before attempting the update operation.
 
 Once the file has been detected, click on the ``Update Game`` button and click ``Yes`` at the dialog. While the process is running, please **DO NOT CLOSE** the launcher and **Do not Panic** if the progress bar does not move or the program becomes unresponsive.
 
 ::: warning
-There is a high chance of your game files being corrupted if you interrupt this process. You **cannot** downgrade to a previous version once you update your game. Collapse is not responsible for game data corruption. Update time varies depending on system configuration.
+There is a high chance of your game files being corrupted if you interrupt this process. You **cannot** downgrade to a previous version once you update your game. Coolapse is not responsible for game data corruption. Update time varies depending on system configuration.
 :::
 
 ## TL;DR: How-To
