@@ -1,8 +1,8 @@
 ---
-title: Building in your Local Environment | Collapse Launcher
+title: Building in your Local Environment | Coolapse Launcher
 ---
 
-# Building Collapse Launcher
+# Building Coolapse Launcher
 
 ## Tools Needed
 
@@ -21,7 +21,7 @@ Using a lower Visual Studio version (like VS2019) is not possible due to require
 
 ## Cloning Repository
 
-- Unless otherwise stated in this project's README, please make sure to clone the source code from the `main` branch using `--recurse-submodules` parameter to pull all the submodules Collapse needs to compile.
+- Unless otherwise stated in this project's README, please make sure to clone the source code from the `main` branch using `--recurse-submodules` parameter to pull all the submodules Coolapse needs to compile.
 
     ```git clone https://github.com/CollapseLauncher/Collapse --recurse-submodules```
 

@@ -1,5 +1,5 @@
 ---
-title: Game Common Issues | Collapse Launcher
+title: Game Common Issues | Coolapse Launcher
 ---
 
 # Genshin Impact
@@ -23,7 +23,7 @@ This could be triggered by number of factors, but usually a rouge `.dll` or `.ex
 1. You don't put any other dll or exe file anywhere in the game tree unless its the game file
 2. Make sure you don't combine other game into the same folder (this applies to any game, please do not do it)
 
-If you still can't find the file culprit, run "Game Files Cleanup" feature in Collapse and delete any detected entry either to Recycle Bin or permanently.
+If you still can't find the file culprit, run "Game Files Cleanup" feature in Coolapse and delete any detected entry either to Recycle Bin or permanently.
 
 ***
 
@@ -45,7 +45,7 @@ If you still can't find the file culprit, run "Game Files Cleanup" feature in Co
 </figure>
 
 This is caused by the pre-check of the in-game audio patching mechanism detected that the audio asset before patching is not what they expect, causing an error. There are ways to fix these:
-1. (Safest) Do a full repair using Collapse Launcher.
+1. (Safest) Do a full repair using Coolapse Launcher.
 Our launcher repair mechanism is able to fix this using our custom-made metadata. It's usually available the same time when the server is up, so please be patient.
 
 2. Trigger complete audio redownload

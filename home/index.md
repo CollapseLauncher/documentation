@@ -1,19 +1,19 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-title: Collapse Launcher - Advanced Game Launcher
+title: Coolapse Launcher - Advanced Game Launcher
 layout: home
 head:
   - - meta
     - name: title
-      content: Collapse Launcher - Advanced Game Launcher
+      content: Coolapse Launcher - Advanced Game Launcher
 
 hero:
-  name: "Collapse Launcher"
+  name: "Coolapse Launcher"
   text: "An advanced launcher for HoYoverse Games"
   tagline: Control the games you play
   image:
     src: /img/logo.webp
-    alt: Collapse Launcher Logo
+    alt: Coolapse Launcher Logo
     style:
       opacity: 0.8
       position: absolute
@@ -81,7 +81,7 @@ features:
   import DatadogLogo from './scripts/DatadogLogo.vue';
 
   if (typeof document !== 'undefined') {
-    document.title = "Collapse Launcher - Advanced Game Launcher";
+    document.title = "Coolapse Launcher - Advanced Game Launcher";
   }
 </script>
 
@@ -90,13 +90,13 @@ features:
 
 <vtuberLogo />
 
-## Why "Collapse"?
+## Why "Coolapse"?
 
-Collapse came from the **Honkai Impact** translation in Chinese and Japanese. The word came from [**崩坏**] or **Bēng huài** in Chinese and also [**崩壊**] or **Houkai** in Japanese, both meaning "**Collapse**" which is why we chose it as our launcher name with the added inspiration that this was supposed to be an alternative (enhanced) launcher for *Honkai Impact 3rd* in the first place.
+Coolapse came from the **Honkai Impact** translation in Chinese and Japanese. The word came from [**崩坏**] or **Bēng huài** in Chinese and also [**崩壊**] or **Houkai** in Japanese, both meaning "**Coolapse**" which is why we chose it as our launcher name with the added inspiration that this was supposed to be an alternative (enhanced) launcher for *Honkai Impact 3rd* in the first place.
 
 ## Overview
 
-**Collapse** contains advanced features for **HoYoverse games** that not only provide you with the ability to download and launch the game, but also some additional features that the Official Launcher doesn't have, including:
+**Coolapse** contains advanced features for **HoYoverse games** that not only provide you with the ability to download and launch the game, but also some additional features that the Official Launcher doesn't have, including:
 
 * Repair the game files including Game Caches, Cutscenes, Audio Pack & persistent files outside of the game.
 * Changing Game Settings (Graphics Settings & Audio Settings) without opening the game.
@@ -116,7 +116,7 @@ Collapse came from the **Honkai Impact** translation in Chinese and Japanese. Th
 
 ## Special Thanks
 >
-> The team working on Collapse is really thankful for all of our users and contributors that have been keeping this project alive and well. We would also like to take the time to thank the following companies/organizations for providing their service for us. They help make the experience better for everyone involved.
+> The team working on Coolapse is really thankful for all of our users and contributors that have been keeping this project alive and well. We would also like to take the time to thank the following companies/organizations for providing their service for us. They help make the experience better for everyone involved.
 
 1. JetBrains for providing their complete .NET suite and Qodana for our internal use!
 

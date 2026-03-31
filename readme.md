@@ -1,4 +1,4 @@
-# Collapse Launcher - Documentation Website
+# Coolapse Launcher - Documentation Website
 
 Contrary to the launcher itself, this repository serves as the official documentation platform for it. While we're not asking our users to read through the code, we've exposed it should anyone feel the need to peruse it to make improvements, or just for fun.
 

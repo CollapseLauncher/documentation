@@ -8,7 +8,7 @@
     "maintainer": {
       "name": "neon-nyan",
       "url": "https://github.com/neon-nyan",
-      "note": "Collapse Project"
+      "note": "Coolapse Project"
     },
     "status": {
       "label": "Public Test",
@@ -16,7 +16,7 @@
       "date": "Sept 29th, 2025"
     },
     "api": "v0.1-update2",
-    "launcher": "Collapse Launcher - v1.83.10 Luna or Above",
+    "launcher": "Coolapse Launcher - v1.83.10 Luna or Above",
     "autoUpdate": true,
     "regions": [
       "Global (Yostar)"
@@ -45,7 +45,7 @@
     "maintainer": {
       "name": "Cry0",
       "url": "https://github.com/Cryotechnic",
-      "note": "Collapse Project"
+      "note": "Coolapse Project"
     },
     "status": {
       "label": "Public Test",
@@ -53,7 +53,7 @@
       "date": "March 26th, 2026"
     },
     "api": "v0.1-update5",
-    "launcher": "Collapse Launcher - v1.83.13 Luna or above",
+    "launcher": "Coolapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
       "Global"
@@ -82,7 +82,7 @@
     "maintainer": {
       "name": "gablm",
       "url": "https://github.com/gablm",
-      "note": "Collapse Project"
+      "note": "Coolapse Project"
     },
     "status": {
       "label": "Public Test",
@@ -90,7 +90,7 @@
       "date": "Feb 22nd, 2026"
     },
     "api": "v0.1-update3",
-    "launcher": "Collapse Launcher - v1.83.13 Luna or above",
+    "launcher": "Coolapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
       "Global",
@@ -130,7 +130,7 @@
       "date": "Feb 13th, 2026"
     },
     "api": "v0.1-update3",
-    "launcher": "Collapse Launcher - v1.83.13 Luna or above",
+    "launcher": "Coolapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
       "Global",
@@ -165,7 +165,7 @@
       "date": "Feb 13th, 2026"
     },
     "api": "v0.1-update3",
-    "launcher": "Collapse Launcher - v1.83.13 Luna or above",
+    "launcher": "Coolapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
       "Mainland China",

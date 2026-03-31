@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Collapse Launcher",
+  title: "Coolapse Launcher",
   description: "An advanced launcher for HoYoverse Games",
   head: [
-    ['meta', { property: 'og:title', content: 'Collapse Launcher' }],
+    ['meta', { property: 'og:title', content: 'Coolapse Launcher' }],
     ['meta', { property: 'og:description', content: 'An advanced launcher for HoYoverse Games. Built with C#/.NET with WinUI and open sourced. Supports all PC games published by miHoYo/HoYoverse with many advanced features like game repair, delta patch, game settings, etc.' }],
     ['meta', { property: 'og:image', content: 'https://collapselauncher.com/img/banner.webp' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
@@ -23,14 +23,14 @@ export default defineConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
     ['meta', { name: 'description', content: 'An advanced launcher for HoYoverse Games. Built with C#/.NET with WinUI and open sourced. Supports all PC games published by miHoYo/HoYoverse with many advanced features like game repair, delta patch, game settings, etc.' }],
-    ['meta', { name: 'keywords', content: 'HoYoverse, miHoYo, Games, Launcher, Collapse Launcher, C#, .NET, WinUI, WinUI3, Genshin Impact, Honkai: Impact 3rd, HI3, Honkai: Star Rail, HSR, Zenless Zone Zero, ZZZ' }],
+    ['meta', { name: 'keywords', content: 'HoYoverse, miHoYo, Games, Launcher, Coolapse Launcher, C#, .NET, WinUI, WinUI3, Genshin Impact, Honkai: Impact 3rd, HI3, Honkai: Star Rail, HSR, Zenless Zone Zero, ZZZ' }],
     ['link', { rel: 'canonical', href: 'https://collapselauncher.com' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'Collapse Launcher' }],
+    ['meta', { name: 'twitter:title', content: 'Coolapse Launcher' }],
     ['meta', { name: 'twitter:description', content: 'An advanced launcher for HoYoverse Games' }],
     ['meta', { name: 'twitter:image', content: 'https://collapselauncher.com/img/banner.webp' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
-    ['meta', { name: 'author', content: 'Collapse Launcher Team' }],
+    ['meta', { name: 'author', content: 'Coolapse Launcher Team' }],
     ['link', { rel: 'preload', href: '/img/logo.webp', as: 'image'}],
     ['link', { rel: 'preload', href: 'https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJtEtq.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'}],
     ['link', { rel: 'preload', href: 'https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJuktqQ4E.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'}],
@@ -99,10 +99,10 @@ export default defineConfig({
       {
         text: 'For Developers',
         items: [
-          {text: 'Building Collapse', link: 'docs/building'},
+          {text: 'Building Coolapse', link: 'docs/building'},
           {text: 'Contribution Guidelines', link: 'docs/contrib'},
           {text: 'Development Workflows', link: 'docs/development-workflows'},
-          {text: 'Help Localize Collapse', link: 'https://explore.transifex.com/collapse-launcher/collapse-mainapp/'},
+          {text: 'Help Localize Coolapse', link: 'https://explore.transifex.com/collapse-launcher/collapse-mainapp/'},
           {text: 'Disclosing Security Vulnerabilities', link: 'https://github.com/CollapseLauncher/Collapse/blob/main/SECURITY.md'}, // explicitly use GitHub for latest version
         ]
       },
