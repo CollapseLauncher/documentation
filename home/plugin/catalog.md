@@ -1,5 +1,5 @@
 ---
-title: Plugin Catalog | Coolapse Launcher
+title: Plugin Catalog | Collapse Launcher
 ---
 <script setup>
     import CatalogTable from '../scripts/pluginCatalogTable.vue'

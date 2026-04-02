@@ -3,7 +3,7 @@
         <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
             <div style="text-align: center; margin: 5px;">
                 <div style="display: flex; flex-direction: column; align-items: center;">
-                    <img width="350px" height="auto" src="/img/vtuber-small.webp" srcset="/img/vtuber-small.webp 1x, /img/vtuber.webp 2x" loading="lazy" alt="Coolapse vTuber logo" title="VTuber Logo"/><br />
+                    <img width="350px" height="auto" src="/img/vtuber-small.webp" srcset="/img/vtuber-small.webp 1x, /img/vtuber.webp 2x" loading="lazy" alt="Collapse vTuber logo" title="VTuber Logo"/><br />
                     <i>I know, it's not a good one. But at least we made it lol</i><br />
                     <i>~ neon-nyan</i>
                 </div>

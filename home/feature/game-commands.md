@@ -1,5 +1,5 @@
 ---
-title: Game Launch Commands | Coolapse Launcher
+title: Game Launch Commands | Collapse Launcher
 ---
 # Game Pre-Launch / Post-Exit Commands
 This feature allows you to run a command before game being launched and/or after the game has been closed.
@@ -13,7 +13,7 @@ Any program run from this feture will have **ADMINISTRATOR LEVEL PRIVILEGE**. Ma
 :::
 
 ::: warning
-Coolapse team does not endorse running any commands that injects or modify the game in any way. We are in any way not responsible for anything that happened to your game should you choose to do so.
+Collapse team does not endorse running any commands that injects or modify the game in any way. We are in any way not responsible for anything that happened to your game should you choose to do so.
 :::
 
 Here is what you need to know about this feature:
@@ -28,4 +28,4 @@ cd /d C:/testapp/ && C:/testapp/run.exe
 ```
 :::
 
-3. This feature by default will not allow you to change the way Coolapse will run the game (e.g. change the executable to be run instead of the game exe itself)
+3. This feature by default will not allow you to change the way Collapse will run the game (e.g. change the executable to be run instead of the game exe itself)

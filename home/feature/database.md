@@ -1,5 +1,5 @@
 ---
-title: Data Sync | Coolapse Launcher
+title: Data Sync | Collapse Launcher
 ---
 # User Data Synchronization
 You can set-up completely private data synchronization that only you have access to. Currently only implemented for playtime data but more coming soon<sup>tm</sup>.
@@ -34,9 +34,9 @@ Do NOT enable "Schema Only"
 </figure>
 &nbsp;
 
-4. Copy the database URL by clicking on it. Paste it on the database URL field in Coolapse settings
+4. Copy the database URL by clicking on it. Paste it on the database URL field in Collapse settings
 ::: info
-Do not worry about the URL protocol automatically changed from `libsql://` to `https://`. It is done automatically by Coolapse due to limitation in the library we used to connect to the database
+Do not worry about the URL protocol automatically changed from `libsql://` to `https://`. It is done automatically by Collapse due to limitation in the library we used to connect to the database
 :::
 
 <figure style="text-align: center;">
@@ -58,7 +58,7 @@ Sharing Database URL and its token to anyone else will give them FULL access to 
 </figure>
 
 ::: info
-Paste the created token into Coolapse setting field
+Paste the created token into Collapse setting field
 :::
 &nbsp;
 
@@ -76,6 +76,6 @@ Do not ever lose this ID as you will not be able to access your data again witho
 
 7. Validate the Settings
 ::: info
-By pressing `Validate and Save` button, Coolapse will try to verify the connection to the database and see if everything is good. If there is an error, it will be shown in a pop-up dialog and the settings won't be saved.
+By pressing `Validate and Save` button, Collapse will try to verify the connection to the database and see if everything is good. If there is an error, it will be shown in a pop-up dialog and the settings won't be saved.
 :::
 &nbsp;

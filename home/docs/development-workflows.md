@@ -1,11 +1,11 @@
 ---
-title: Development Workflows | Coolapse Launcher
+title: Development Workflows | Collapse Launcher
 ---
 
 # Development Workflows
 Each big project has development workflows, helping developers ship code in a timely and efficient manner.
 
-This section will explain how Coolapse project handle commits and release publishing flows.
+This section will explain how Collapse project handle commits and release publishing flows.
 
 ::: tip
 If the images are too small to see, click on them to zoom in!
@@ -15,7 +15,7 @@ If the images are too small to see, click on them to zoom in!
 
 <figure style="text-align: center">
   <a>
-    <img src='/img/docs/Collapse-gitScheme.svg' title="Coolapse code repository scheme" alt="Coolapse code repository scheme" loading="lazy" style="display: block; margin: 0 auto;" width="auto" data-zoomable>
+    <img src='/img/docs/Collapse-gitScheme.svg' title="Collapse code repository scheme" alt="Collapse code repository scheme" loading="lazy" style="display: block; margin: 0 auto;" width="auto" data-zoomable>
   </a>
 </figure>
 
@@ -31,7 +31,7 @@ If the images are too small to see, click on them to zoom in!
 
 <figure style="text-align: center">
   <a>
-    <img src='/img/docs/Collapse-appPublication.svg' title="Coolapse code repository scheme" alt="Coolapse code repository scheme" loading="lazy" style="display: block; margin: 0 auto;" width="auto" data-zoomable>
+    <img src='/img/docs/Collapse-appPublication.svg' title="Collapse code repository scheme" alt="Collapse code repository scheme" loading="lazy" style="display: block; margin: 0 auto;" width="auto" data-zoomable>
   </a>
 </figure>
 
