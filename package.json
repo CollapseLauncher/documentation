@@ -7,16 +7,16 @@
   "dependencies": {
     "@catppuccin/vitepress": "^0.1.2",
     "@mdi/font": "^7.4.47",
-    "@sentry/vue": "^10.49.0",
+    "@sentry/vue": "^10.50.0",
     "highlight.js": "^11.11.1",
     "markdown-it": "^14.1.1",
     "marked": "^18.0.2",
     "marked-highlight": "^2.2.4",
     "medium-zoom": "^1.1.0",
     "router": "^2.2.0",
-    "vue": "^3.5.32",
+    "vue": "^3.5.33",
     "vitepress": "^2.0.0-alpha.17",
-    "vuetify": "^4.0.5"
+    "vuetify": "^4.0.6"
   },
   "devDependencies": {
     "vite-plugin-vuetify": "^2.1.3"
