@@ -131,7 +131,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 26
           cache: npm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -141,5 +141,5 @@ jobs:
         run: npm run home:build
       - name: run Lighthouse CI
         run: |
-          npm install -g @lhci/cli@0.14.x
+          npm install -g @lhci/cli@0.15.x
           lhci autorun
