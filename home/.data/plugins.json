@@ -5,6 +5,7 @@
       "url": "https://heavenburnsred.yo-star.com/"
     },
     "codename": "Seraphim",
+    "repository": "https://github.com/CollapseLauncher/Hi3Helper.Plugin.Seraphim",
     "maintainer": {
       "name": "neon-nyan",
       "url": "https://github.com/neon-nyan",
@@ -42,6 +43,7 @@
       "url": "https://wutheringwaves.kurogames.com/"
     },
     "codename": "Wuwa",
+    "repository": "https://github.com/CollapseLauncher/Hi3Helper.Plugin.Wuwa",
     "maintainer": {
       "name": "Cry0",
       "url": "https://github.com/Cryotechnic",
@@ -79,6 +81,7 @@
       "url": "https://duetnightabyss.dna-panstudio.com/"
     },
     "codename": "DNA",
+    "repository": "https://github.com/CollapseLauncher/Hi3Helper.Plugin.DNA",
     "maintainer": {
       "name": "gablm",
       "url": "https://github.com/gablm",
@@ -119,17 +122,18 @@
       "url": "https://endfield.gryphline.com/en-us"
     },
     "codename": "AKE",
+    "repository": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph",
     "maintainer": {
       "name": "misaka10843",
       "url": "https://github.com/misaka10843",
       "note": "External Developer"
     },
     "status": {
-      "label": "Public Test",
-      "version": "v0.1.3",
-      "date": "Feb 13th, 2026"
+      "label": "Public Release",
+      "version": "v1.0.4",
+      "date": "June 6th, 2026"
     },
-    "api": "v0.1-update3",
+    "api": "v0.1-update5",
     "launcher": "Collapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
@@ -140,11 +144,11 @@
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/CollapsePlugin-ReleaseRepo/raw/refs/heads/main/Endfield/build/Endfield_0.1.3.0_API-0.1.3.0_20260213.zip"
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Endfield%40v1.0.4"
       },
       {
         "label": "Mirror 2",
-        "url": "https://fastly.jsdelivr.net/gh/misaka10843/CollapsePlugin-ReleaseRepo@main/Endfield/build/Endfield_0.1.3.0_API-0.1.3.0_20260213.zip"
+        "url": "https://cl-plugins.sakurakoi.top/plugins/endfield"
       }
     ]
   },
@@ -154,17 +158,18 @@
       "url": "https://www.arknights.global"
     },
     "codename": "ARK",
+    "repository": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph",
     "maintainer": {
       "name": "misaka10843",
       "url": "https://github.com/misaka10843",
       "note": "External Developer"
     },
     "status": {
-      "label": "Public Test",
-      "version": "v0.1.0",
-      "date": "Feb 13th, 2026"
+      "label": "Public Release",
+      "version": "v1.0.4",
+      "date": "June 6th, 2026"
     },
-    "api": "v0.1-update3",
+    "api": "v0.1-update5",
     "launcher": "Collapse Launcher - v1.83.13 Luna or above",
     "autoUpdate": true,
     "regions": [
@@ -174,11 +179,11 @@
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/CollapsePlugin-ReleaseRepo/raw/refs/heads/main/Arknights/build/Arknights_0.1.0.0_API-0.1.3.0_20260213.zip"
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases#release-Arknights@v1.0.4"
       },
       {
         "label": "Mirror 2",
-        "url": "https://fastly.jsdelivr.net/gh/misaka10843/CollapsePlugin-ReleaseRepo@main/Arknights/build/Arknights_0.1.0.0_API-0.1.3.0_20260213.zip"
+        "url": "https://cl-plugins.sakurakoi.top/plugins/arknights"
       }
     ]
   }

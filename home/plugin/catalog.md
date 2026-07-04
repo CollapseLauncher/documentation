@@ -51,6 +51,13 @@ title: Plugin Catalog | Collapse Launcher
 Plugins currently under **Public Beta Test** might receive changes that cause incompatibilities with previous versions.
 :::
 
+## Community Plugin Repository
+
+### [Sakurakoi](https://cl-plugins.sakurakoi.top/plugins/)
+> - **Maintainer:** [misaka10843](https://github.com/misaka10843)
+> - **Website:** https://cl-plugins.sakurakoi.top/plugins/
+> - **Repository:** https://github.com/misaka10843/CollapsePlugin-ReleaseRepo
+
 ## Game Information
 ### [Heaven Burns Red](https://heavenburnsred.yo-star.com/)
 > - **Engine:** Unity 2020.x (2020.3.15f2)
