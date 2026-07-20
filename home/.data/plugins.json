@@ -88,7 +88,7 @@
       "note": "Collapse Project"
     },
     "status": {
-      "label": "Public Test",
+      "label": "Discontinued",
       "version": "v0.6.2",
       "date": "Feb 22nd, 2026"
     },
@@ -130,8 +130,8 @@
     },
     "status": {
       "label": "Public Release",
-      "version": "v1.0.4",
-      "date": "June 6th, 2026"
+      "version": "v1.1.0",
+      "date": "July 17th, 2026"
     },
     "api": "v0.1-update5",
     "launcher": "Collapse Launcher - v1.83.13 Luna or above",
@@ -144,7 +144,7 @@
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Endfield%40v1.0.4"
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Endfield%40v1.1.0"
       },
       {
         "label": "Mirror 2",
@@ -166,8 +166,8 @@
     },
     "status": {
       "label": "Public Release",
-      "version": "v1.0.4",
-      "date": "June 6th, 2026"
+      "version": "v1.1.0",
+      "date": "July 17th, 2026"
     },
     "api": "v0.1-update5",
     "launcher": "Collapse Launcher - v1.83.13 Luna or above",
@@ -179,7 +179,7 @@
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases#release-Arknights@v1.0.4"
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases#release-Arknights@v1.1.0"
       },
       {
         "label": "Mirror 2",
