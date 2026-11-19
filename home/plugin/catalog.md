@@ -99,3 +99,13 @@ Plugins currently under **Public Beta Test** might receive changes that cause in
 >   - Mainland China: **Perfect World Games** (Hefei Perfect World Network Technology Co., Ltd.)
 >   - Global: **Perfect World Games** (standalone PC operated by N2E Entertainment Pte. Ltd.)
 >   - Taiwan / Hong Kong / Macau: **Perfect World Games** (local operator: IWPLAY WORLD / 艾玩天地)
+
+### [Stella Sora](https://stellasora.global/)
+> - **Engine:** Unity 2022 LTS (2022.3.62f2 in the Mainland China PC client)
+> - **Developer:** Yostar
+> - **Published by:**
+>   - Mainland China: **Yostar** (operated by Shanghai Roaming Star Co., Ltd. / 上海星啸)
+>   - Global: **Yostar (Hong Kong) Limited**
+>   - Japan: **Yostar, Inc.** (株式会社Yostar)
+>   - Korea: **Yostar Limited**
+>   - Taiwan / Hong Kong / Macau: **Stargazer** (local agent: 魔法屋互動娛樂)

@@ -217,5 +217,44 @@
         "url": "https://plugins.freedorm.net/collapse-plugins/nte/releases/v0.9.7/NTE_0.9.7_ReleaseNoReflectionPublish-O2.zip"
       }
     ]
+  },
+  {
+    "game": {
+      "name": "Stella Sora",
+      "url": "https://stellasora.global/"
+    },
+    "codename": "StellaSora",
+    "repository": "https://github.com/maxinglo/Hi3Helper.Plugin.StellaSora",
+    "maintainer": {
+      "name": "Maxing",
+      "url": "https://github.com/maxinglo",
+      "note": "External Developer"
+    },
+    "status": {
+      "label": "Public Release",
+      "version": "0.2.3",
+      "date": "November 19th, 2026",
+      "tagPrefix": "v"
+    },
+    "api": "v0.1-update6",
+    "launcher": "Collapse Launcher - v1.84.7 Columbina or above",
+    "autoUpdate": true,
+    "regions": [
+      "Mainland China",
+      "Global",
+      "Japan",
+      "Korea",
+      "Taiwan / Hong Kong / Macau"
+    ],
+    "downloads": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/maxinglo/Hi3Helper.Plugin.StellaSora/releases/tag/v0.2.3"
+      },
+      {
+        "label": "ESA mirror",
+        "url": "https://plugins.freedorm.net/collapse-plugins/stella-sora/releases/v0.2.3/StellaSora_0.2.3.0_win-x64.zip"
+      }
+    ]
   }
 ]
