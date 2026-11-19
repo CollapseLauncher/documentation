@@ -183,6 +183,43 @@
   },
   {
     "game": {
+      "name": "Neverness to Everness",
+      "url": "https://nte.perfectworld.com/en/"
+    },
+    "codename": "NTE",
+    "repository": "https://github.com/maxinglo/Hi3Helper.Plugin.NTE",
+    "maintainer": {
+      "name": "Maxing",
+      "url": "https://github.com/maxinglo",
+      "note": "External Developer"
+    },
+    "status": {
+      "label": "Public Release",
+      "version": "0.9.7",
+      "date": "November 19th, 2026",
+      "tagPrefix": "v"
+    },
+    "api": "v0.1-update6",
+    "launcher": "Collapse Launcher - v1.84.7 Columbina or above",
+    "autoUpdate": true,
+    "regions": [
+      "Mainland China",
+      "Global",
+      "Taiwan / Hong Kong / Macau"
+    ],
+    "downloads": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/maxinglo/Hi3Helper.Plugin.NTE/releases/tag/v0.9.7"
+      },
+      {
+        "label": "ESA mirror",
+        "url": "https://plugins.freedorm.net/collapse-plugins/nte/releases/v0.9.7/NTE_0.9.7_ReleaseNoReflectionPublish-O2.zip"
+      }
+    ]
+  },
+  {
+    "game": {
       "name": "Stella Sora",
       "url": "https://stellasora.global/"
     },

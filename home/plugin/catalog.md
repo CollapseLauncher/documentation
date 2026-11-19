@@ -92,6 +92,14 @@ Plugins currently under **Public Beta Test** might receive changes that cause in
 > - **Published by:**
 >   - Mainland China: **Hypergryph**
 
+### [Neverness to Everness](https://nte.perfectworld.com/en/)
+> - **Engine:** Unreal Engine 5
+> - **Developer:** Hotta Studio
+> - **Published by:**
+>   - Mainland China: **Perfect World Games** (Hefei Perfect World Network Technology Co., Ltd.)
+>   - Global: **Perfect World Games** (standalone PC operated by N2E Entertainment Pte. Ltd.)
+>   - Taiwan / Hong Kong / Macau: **Perfect World Games** (local operator: IWPLAY WORLD / 艾玩天地)
+
 ### [Stella Sora](https://stellasora.global/)
 > - **Engine:** Unity 2022 LTS (2022.3.62f2 in the Mainland China PC client)
 > - **Developer:** Yostar
