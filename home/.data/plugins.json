@@ -139,7 +139,7 @@
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Endfield@v1.1.0"
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Endfield@v1.3.3"
       },
       {
         "label": "Mirror 2",
@@ -168,12 +168,15 @@
     "autoUpdate": true,
     "regions": [
       "Mainland China",
-      "Bilibili"
+      "Bilibili",
+      "Korea",
+      "Japan",
+      "Global"
     ],
     "downloads": [
       {
         "label": "Mirror 1",
-        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Arknights@v1.1.0"
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Hypergryph/releases/tag/Arknights@v1.3.3"
       },
       {
         "label": "Mirror 2",
@@ -254,6 +257,43 @@
       {
         "label": "ESA mirror",
         "url": "https://plugins.freedorm.net/collapse-plugins/stella-sora/releases/v0.2.3/StellaSora_0.2.3.0_win-x64.zip"
+      }
+    ]
+  },
+  {
+    "game": {
+      "name": "Azur Promilia",
+      "url": "https://azurpromilia.jimi-global.com"
+    },
+    "codename": "AZP",
+    "repository": "https://github.com/misaka10843/Hi3Helper.Plugin.Azurpromilia",
+    "maintainer": {
+      "name": "misaka10843",
+      "url": "https://github.com/misaka10843",
+      "note": "External Developer"
+    },
+    "status": {
+      "label": "Public Release",
+      "tagPrefix": "AzurPromilia@"
+    },
+    "api": "v0.1-update6",
+    "launcher": "Collapse Launcher - v1.83.13 Luna or above",
+    "autoUpdate": true,
+    "regions": [
+      "Mainland China",
+      "Bilibili",
+      "Global",
+      "Japan"
+
+    ],
+    "downloads": [
+      {
+        "label": "Mirror 1",
+        "url": "https://github.com/misaka10843/Hi3Helper.Plugin.Azurpromilia/releases/latest"
+      },
+      {
+        "label": "Mirror 2",
+        "url": "https://cl-plugins.sakurakoi.top/plugins/azurpromilia"
       }
     ]
   }

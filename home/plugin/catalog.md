@@ -91,6 +91,9 @@ Plugins currently under **Public Beta Test** might receive changes that cause in
 > - **Developer:** Hypergryph, Mountain Contour
 > - **Published by:**
 >   - Mainland China: **Hypergryph**
+>   - Global: **Yostar**
+>   - Japan: **Yostar**
+>   - Korea: **Yostar**
 
 ### [Neverness to Everness](https://nte.perfectworld.com/en/)
 > - **Engine:** Unreal Engine 5
@@ -109,3 +112,13 @@ Plugins currently under **Public Beta Test** might receive changes that cause in
 >   - Japan: **Yostar, Inc.** (株式会社Yostar)
 >   - Korea: **Yostar Limited**
 >   - Taiwan / Hong Kong / Macau: **Stargazer** (local agent: 魔法屋互動娛樂)
+
+### [Azur Promilia](https://azurpromilia.jimi-global.com/)
+> - **Engine:** Unity 2022 LTS (2022.3.62f3)
+> - **Developer:** Manjuu
+> - **Published by:**
+>   - Mainland China: **Manjuu**
+>   - Global: **Jimi Global**
+>   - Japan: **Yostar**
+>   - Korea: **Nexon**
+>   - SEA: **PlayPark**
